@@ -1,9 +1,9 @@
-### Hi there 👋
 Sycotic Society is a Social Media content creator at it's core.
-We have started to shift out focus on digital asset investing,
+We have started to shift our focus on digital asset investing,
 creating valuable marketing network partnerships, and community
-development.  We believe in continued education and overall 
-Improving the human condition!  Fight with us.
+development.  We believe in continued education and above all 
+Improving the human condition!  Stand with us.
+
 <!--
 **SycoticSociety/SycoticSociety** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
