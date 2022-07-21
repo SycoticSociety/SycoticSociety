@@ -519,8 +519,8 @@ footer {
     display: flex;
 }
 .token-banner img {
-    width:70rem;
-    height: 10rem;
+    width:75rem;
+    height: 20rem;
     border-radius: 2rem;
     border: 1px solid rgba(0, 0, 0, 0.5);
     margin: 0 auto;
@@ -617,7 +617,7 @@ footer {
 }
 .sycotic-tonic img {
     width:60rem;
-    height: 75rem;
+    height: 70rem;
     border-radius: 2rem;
     border: 1px solid rgba(0, 0, 0, 0.5);
     margin: 0 auto;
