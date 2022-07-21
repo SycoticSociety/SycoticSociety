@@ -1,7 +1,7 @@
 /* Universal style */
 
 html {
-    font-size: 18px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color:white;
     height: 100%;
@@ -519,8 +519,8 @@ footer {
     display: flex;
 }
 .token-banner img {
-    width:75rem;
-    height: 20rem;
+    width: 60rem;
+    height: 5rem;
     border-radius: 2rem;
     border: 1px solid rgba(0, 0, 0, 0.5);
     margin: 0 auto;
@@ -617,7 +617,7 @@ footer {
 }
 .sycotic-tonic img {
     width:60rem;
-    height: 70rem;
+    height: 60rem;
     border-radius: 2rem;
     border: 1px solid rgba(0, 0, 0, 0.5);
     margin: 0 auto;
