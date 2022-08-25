@@ -300,7 +300,7 @@ footer {
     height: 35rem;
     width: 35rem;
     margin: 5rem auto;
-    border-radius: 75%;
+    border-radius: 100%;
     background-image: url('../img/banner.png');
     background-repeat: no-repeat;
     background-position: center;
