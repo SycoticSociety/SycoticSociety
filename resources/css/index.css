@@ -326,6 +326,8 @@ footer {
 .banner a:hover {
     border: 2px solid white;
     font-weight: bold;
+    transform: scale(1.10);
+
 }
 
 .banner a:active {
