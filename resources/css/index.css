@@ -325,7 +325,7 @@ footer {
 
 
 .banner a:hover {
-    border: 3px solid gray;
+    border: 3px solid red;
     font-weight: bold;
  }
 
