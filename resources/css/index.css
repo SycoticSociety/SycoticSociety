@@ -309,6 +309,9 @@ footer {
     align-items: center;
     justify-content: space-around;
     grid-column: 2 / 3;
+    transform: scale(1.15);
+}
+
 
 }
 
