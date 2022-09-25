@@ -312,8 +312,6 @@ footer {
 }
 
 
-}
-
 .banner a {
     border: 1px solid white;
     padding: 1rem;
@@ -325,11 +323,11 @@ footer {
     color: white;
 }
 
+
 .banner a:hover {
     border: 3px solid white;
     font-weight: bold;
-    transform: scale(1.15);
-}
+ }
 
 .banner a:active {
     border: 2px solid rgb(63, 62, 62);
@@ -344,6 +342,7 @@ footer {
     justify-content: center;
     flex-wrap: wrap;
 }
+
 .logo-name {
     width:100%;
     display: flex;
@@ -377,6 +376,7 @@ footer {
     color:white;
     font-size: 1.9rem;
 }
+
 .top-button a:hover {
     border: 2px solid white;
     font-weight: bold;
