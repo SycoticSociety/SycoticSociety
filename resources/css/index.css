@@ -316,7 +316,7 @@ footer {
     border: 1px solid white;
     padding: 1rem;
     border-radius: 1rem;
-    background-color: rgba(63, 62, 62, 0.85);
+    background-color: rgba(63, 62, 62,);
     cursor: pointer;
     display: none;
     text-decoration: none;
