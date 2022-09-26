@@ -362,7 +362,6 @@ footer {
 .top-button {
     display: flex;
     padding: 2rem;
-    border-top:  2px solid white;
 }
 
 .top-button a {
