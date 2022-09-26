@@ -353,10 +353,10 @@ footer {
 }
 
 .hidden-logo img{
-    width: 20rem;
-    height: 20rem;
-    visibility: hidden;
-    opacity: 1;
+    width: 10rem;
+    height: 10rem;
+    visibility: visible;
+    opacity: 3;
 }
 
 .top-button {
