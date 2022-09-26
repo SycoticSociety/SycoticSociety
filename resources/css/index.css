@@ -378,13 +378,13 @@ footer {
 }
 
 .top-button a:hover {
-    border: 2px solid white;
+    border: 2px solid black;
     font-weight: bold;
 }
 
 .top-button a:active {
     border: 2px solid rgb(63, 62, 62);
-    background-color: white;
+    background-color: red;
     color: rgb(63, 62, 62);
 }
 
