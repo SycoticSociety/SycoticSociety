@@ -90,6 +90,7 @@ header {
     font-size: 1.25rem;
     color: white;
     border: 1px solid white;
+    background-color: gray;
     padding: 0.5rem 1rem;
     border-radius: 2rem;
 }
