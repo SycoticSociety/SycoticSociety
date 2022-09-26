@@ -316,7 +316,7 @@ footer {
     border: 1px solid gray;
     padding: 1rem;
     border-radius: 1rem;
-    background-color: gray;
+    background-color: RGB(63, 62, 62,.85);
     cursor: pointer;
     display: none;
     text-decoration: none;
