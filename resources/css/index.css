@@ -101,7 +101,7 @@ header {
 
 .navigation li a:active {
     border: 2px solid rgb(63, 62, 62);
-    background-color: red;
+    background-color: red,.85;
     color: rgb(63, 62, 62);
 }
 
