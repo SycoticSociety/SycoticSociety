@@ -50,7 +50,7 @@ main {
 header {
     width: 100%;
     border: 2px solid rgba(63, 62, 62,0.6);;
-    background-color: rgba(63, 62, 62, 0.5);
+    background-color: rgba(63, 62, 62, 0.6);
     display: flex;
     position:fixed;
     z-index: 100;
@@ -90,7 +90,7 @@ header {
     font-size: 1.25rem;
     color: white;
     border: 1px solid white;
-    background-color: RGB(63, 62, 62,.50);
+    background-color: RGB(63, 62, 62,.60);
     padding: 0.5rem 1rem;
     border-radius: 2rem;
 }
@@ -102,7 +102,7 @@ header {
 
 .navigation li a:active {
     border: 2px solid rgb(63, 62, 62);
-    background-color: rgba(255,0,0,0.50);
+    background-color: rgba(255,0,0,0.60);
     color: rgb(63, 62, 62);
 }
 
@@ -235,7 +235,7 @@ header {
 footer {
     width: 100%;
     border: 2px solid rgba(63, 62, 62,0.6);;
-    background-color: rgba(63, 62, 62, 0.5);
+    background-color: rgba(63, 62, 62, 0.6);
     position: fixed;
     left: 0;
     bottom: 0;
@@ -317,7 +317,7 @@ footer {
     border: 1px solid gray;
     padding: 1rem;
     border-radius: 1rem;
-    background-color: rgba(63, 62, 62,0.40);
+    background-color: rgba(63, 62, 62,0.60);
     cursor: pointer;
     display: none;
     text-decoration: none;
@@ -332,7 +332,7 @@ footer {
 
 .banner a:active {
     border: 2px solid rgb(63, 62, 62);
-    background-color: rgba(255,0,0,0.40);
+    background-color: rgba(255,0,0,0.60);
     color: rgb(63, 62, 62);
 }
 
@@ -370,7 +370,7 @@ footer {
     padding: 1rem;
     margin: 1rem;
     border-radius: 1rem;
-    background-color: rgba(63, 62, 62,0.40);
+    background-color: rgba(63, 62, 62,0.60);
     cursor: pointer;
     text-decoration: none;
     color:white;
@@ -384,7 +384,7 @@ footer {
 
 .top-button a:active {
     border: 2px solid rgb(63, 62, 62);
-    background-color: rgba(255,0,0,0.40);
+    background-color: rgba(255,0,0,0.60);
     color: rgb(63, 62, 62);
 }
 
@@ -400,7 +400,7 @@ footer {
     font-size: 2.0rem;
     text-align: center;
     margin: 1rem;
-    background-color: rgba(63, 62, 62, 0.40);
+    background-color: rgba(63, 62, 62, 0.60);
     padding: 1rem;
     border-radius: 2rem;
     Color:white;
@@ -413,7 +413,7 @@ footer {
 
 .intro h3:active {
     border: 2px solid rgb(63, 62, 62);
-    background-color: rgba(255,0,0,0.40);
+    background-color: rgba(255,0,0,0.60);
     color: rgb(63, 62, 62);
 }
 
@@ -422,7 +422,7 @@ footer {
     font-size: 2.5rem;
     text-align: center;
     margin: 1rem;
-    background-color: rgba(63, 62, 62, 0.40);
+    background-color: rgba(63, 62, 62, 0.60);
     padding: 1rem;
     border-radius: 2rem;
     color:white;
@@ -430,7 +430,7 @@ footer {
 
 .intro p:active {
     border: 2px solid rgb(63, 62, 62);
-    background-color: rgba(255,0,0,0.40);
+    background-color: rgba(255,0,0,0.60);
     color: rgb(63, 62, 62);
 }
 
@@ -547,7 +547,7 @@ footer {
     width: 60rem;
     height: 15rem;
     border-radius: 2rem;
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.60);
     margin: 0 auto;
 }
 
