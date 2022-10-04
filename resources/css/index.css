@@ -298,8 +298,8 @@ footer {
 }
 
 .banner {
-    height: 40rem;
-    width: 40rem;
+    height: 45rem;
+    width: 45rem;
     margin: 5rem auto;
     border-radius: 100%;
     background-image: url('../img/banner.png');
