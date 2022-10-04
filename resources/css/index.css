@@ -421,6 +421,13 @@ footer {
     border-radius: 2rem;
 }
 
+.intro p:active {
+    border: 2px solid rgb(63, 62, 62);
+    background-color: rgba(255,0,0,0.85);
+    color: rgb(63, 62, 62);
+}
+
+
 @media only screen and (max-width: 1300px) {
     .banner {
         height: 30rem;
