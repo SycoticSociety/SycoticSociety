@@ -400,7 +400,7 @@ footer {
     font-size: 2.0rem;
     text-align: center;
     margin: 1rem;
-    background-color: rgba(255,0,0,0.40);
+    background-color: rgba(255,0,0,0.30);
     padding: 1rem;
     border-radius: 2rem;
     Color:white;
@@ -413,7 +413,7 @@ footer {
 
 .intro h3:active {
     border: 2px solid rgb(63, 62, 62);
-    background-color: rgba(255,0,0,0.60);
+    background-color: rgba(63, 62, 62, 0.50);
     color: rgb(63, 62, 62);
 }
 
@@ -422,7 +422,7 @@ footer {
     font-size: 2.5rem;
     text-align: center;
     margin: 1rem;
-    background-color: rgba(63, 62, 62, 0.60);
+    background-color: rgba(63, 62, 62, 0.50);
     padding: 1rem;
     border-radius: 2rem;
     color:white;
