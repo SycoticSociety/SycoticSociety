@@ -353,12 +353,7 @@ footer {
     text-align: center;
 }
 
-.hidden-logo img{
-    width: 20rem;
-    height: 20rem;
-    visibility: visible;
-    opacity: 3;
-}
+
 
 .top-button {
     display: flex;
@@ -443,11 +438,7 @@ footer {
     .logo-name {
         font-size: 2.25rem;
     }
-    .hidden-logo img{
-        width: 15rem;
-        height: 15rem;
-        visibility: visible;
-    }
+
     .top-button a{
         font-size: 1rem;
     }
@@ -466,11 +457,7 @@ footer {
     .logo-name {
         font-size: 2rem;
     }
-    .hidden-logo img{
-        width: 12.5rem;
-        height: 12.5rem;
-        visibility: visible;
-    }
+
     .top-button a{
         font-size: 0.9rem;
     }
