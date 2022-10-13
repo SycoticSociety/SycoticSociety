@@ -634,7 +634,20 @@ footer {
     border: 1px solid rgba(0, 0, 0, 0.5);
     margin: 0 auto;
     overflow: hidden;
-
+    
+    
+.sycotic-tonic2 {
+    display: flex;
+}
+.sycotic-tonic2 img {
+    width: 20rem;
+    height: 35rem;
+    border-radius: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    overflow: hidden;
+    
+   
 .sycotic-rabbit {
     display: flex;
 }
