@@ -40,14 +40,36 @@ setInterval(logoOpacity, 5);
 
 //MetaMask wallet connect Test
 
-document.getElementByid ('Meta Connect Soon').add
+
+document.getElementById('connectButton', connect);
+
+function connect() {
+  ethereum
+    .request({ method: 'eth_requestAccounts' })
+    .then(handleAccountsChanged)
+    .catch((error) => {
+      if (error.code === 4001) {
+        // EIP-1193 userRejectedRequest error
+        console.log('Please connect to MetaMask.');
+      } else {
+        console.error(error);
+      }
+    });
+}
+
+
+
+
+
+
+document getElementByid ('Meta Connect Soon').add
      Event Listener ('click',event=>{let account;
      let button= event.target;
-ethereum.request ({method: 'eth_request accounts'
+ethereum request ({method: 'eth_request accounts'
      }).then(accounts=>{account=accounts[0];
      console.log(account); button.text content=
      account;
-ethereum.request ({method: 'eth_get balance',Paramus
+ethereum request ({method: 'eth_get balance',Paramus
      :[account,'latest]}).then(result =>{console
      _log(result); let wei= pareint(result,16);
      let balance= wei/(10**18); console.log
