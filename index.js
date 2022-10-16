@@ -38,36 +38,3 @@ function logoOpacity() {
 }
 setInterval(logoOpacity, 5);
 
-//MetaMask wallet connect Test
-
-
-document.getElementById('** Connect Button **', connect);
-
-function connect() {
-  ethereum
-    .request({ method: 'eth_requestAccounts' })
-    .then(handleAccountsChanged)
-    .catch((error) => {
-      if (error.code === 4001) {
-        // EIP-1193 userRejectedRequest error
-        console.log('Please connect to MetaMask.');
-      } else {
-        console.error(error);
-      }
-    });
-}
-
-
-import detectEthereumProvider from '@metamask/detect-provider';
-
-const provider = await detectEthereumProvider();
-
-if (provider) {
-  // From now on, this should always be true:
-  // provider === window.ethereum
-  startApp(provider); // initialize your app
-} else {
-  console.log('Please install MetaMask!');
-}
-
-
