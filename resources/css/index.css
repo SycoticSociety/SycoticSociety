@@ -412,7 +412,7 @@ footer {
     color: rgb(63, 62, 62);
 }
 
-.connect-button{
+.connect-button h3{
     font-size: 2.0rem;
     text-align: center;
     margin: 1rem;
@@ -422,12 +422,12 @@ footer {
     Color:white;
 }
 
-.connect-button:hover {
+.connect-button h3:hover {
     border: 2px solid black;
     font-weight: bold;
 }
 
-.connect-button:active {
+.connect-button h3:active {
     border: 2px solid rgb(63, 62, 62);
     background-color: rgba(255,0,0,.70);
     color: rgb(63, 62, 62);
