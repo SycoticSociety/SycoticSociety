@@ -412,6 +412,26 @@ footer {
     color: rgb(63, 62, 62);
 }
 
+.connect-button{
+    font-size: 2.0rem;
+    text-align: center;
+    margin: 1rem;
+    background-color: rgba(255,0,0,.30);
+    padding: 1rem;
+    border-radius: 2rem;
+    Color:white;
+}
+
+.connect-button:hover {
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+.connect-button:active {
+    border: 2px solid rgb(63, 62, 62);
+    background-color: rgba(255,0,0,.70);
+    color: rgb(63, 62, 62);
+}
 
 .intro p {
     font-size: 2.5rem;
