@@ -48,20 +48,26 @@
               <br><img src="./resources/img/Screenshot_20220819-154013~2.png" alt="sycotic tonic">
          </div> 
 
-          <style>.box {color: red; 
-               text-align: center;
-               }
-          </style>
+<button id="connect-button">Connect Metamask</button>
+    <script>
+      document.getElementById('connect-button').addEventListener('click', event => {
+        let account;
+        let button = event.target;
+        ethereum.request({method: 'eth_requestAccounts'}).then(accounts => {
+          account = accounts[0];
+          console.log(account);
+          button.textContent = account;
 
-          <div class="box">
-              <h3>Welcome Sycotic Society, How are you!</h3>
-          </div>
-              <button onclick="changeColor()">Blue</button>
-          <script>
-             function changeColor() {
-             document.querySelector('.box').style.color = 'blue';
-             }
-          </script>
+          ethereum.request({method: 'eth_getBalance' , params: [account, 'latest']}).then(result => {
+            console.log(result);
+            let wei = parseInt(result,16);
+            let balance = wei / (10**18);
+            console.log(balance + " ETH");
+          });
+        });
+      });
+    </script>  
+
               
           <div class="sycotic-tonic">
               <br><br><br><img src="./resources/img/Screenshot_20220819-222121~2.png" alt="sycotic tonic">
