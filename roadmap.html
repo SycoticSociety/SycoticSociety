@@ -48,31 +48,7 @@
               <br><img src="./resources/img/Screenshot_20220819-154013~2.png" alt="sycotic tonic">
          </div> 
 
-    <script>
-      document.getElementById('connect-button').addEventListener('click', event => {
-        let account;
-        let button = event.target;
-        ethereum.request({method: 'eth_requestAccounts'}).then(accounts => {
-          account = accounts[0];
-          console.log(account);
-          button.textContent = account;
-
-          ethereum.request({method: 'eth_getBalance' , params: [account, 'latest']}).then(result => {
-            console.log(result);
-            let wei = parseInt(result,16);
-            let balance = wei / (10**18);
-            console.log(balance + " ETH");
-          });
-        });
-      });
-    </script>  
-
-             
-
-          <div class="button">
-              <button id="connect-button">Connect Metamask</button>  
-          </div>
-
+    
           <div class="sycotic-tonic">
               <br><br><br><img src="./resources/img/Screenshot_20220819-222121~2.png" alt="sycotic tonic">
           </div> 
