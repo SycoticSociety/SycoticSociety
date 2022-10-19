@@ -705,4 +705,68 @@ footer {
     margin: 0 auto;
     overflow: hidden;
    
+///**SYCOTIC SEASONAL VIDEO**///
 
+@media only screen and (max-width: 700px) {
+
+.sycotic-halloween video 
+    width: 700px;
+    height: 1200;
+    margin: 0 auto;
+    Position: center;
+}
+
+@media only screen and (max-width: 900px) {
+
+.sycotic-halloween video 
+    width: 900px;
+    height: 1200;
+    margin: 0 auto;
+    Position: center;
+}
+
+
+@media only screen and (max-width: 1100px) {
+
+.sycotic-halloween video 
+    width: 1100px;
+    height: 1200;
+    margin: 0 auto;
+    Position: center;
+}
+
+@media only screen and (max-width: 1300px) {
+
+.sycotic-halloween video 
+    width: 1300px;
+    height: 1200;
+    margin: 0 auto;
+    Position: center;
+}
+
+@media only screen and (max-width: 1500px) {
+
+.sycotic-halloween video 
+    width: 1500px;
+    height: 1200;
+    margin: 0 auto;
+    Position: center;
+}
+
+@media only screen and (max-width: 1700px) {
+
+.sycotic-halloween video 
+    width: 1700px;
+    height: 1200;
+    margin: 0 auto;
+    Position: center;
+}
+
+@media only screen and (max-width: 1920px) {
+
+.sycotic-halloween video 
+    width: 1920px;
+    height: 1200;
+    margin: 0 auto;
+    Position: center;
+}
