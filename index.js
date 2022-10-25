@@ -84,3 +84,18 @@ function startApp(provider) {
   }
   // Access the decentralized web!
 }    
+
+    
+/**********************************************************/
+/* Handle chain (network) and chainChanged (per EIP-1193) */
+/**********************************************************/
+
+const chainId = await ethereum.request({ method: 'eth_chainId' });
+handleChainChanged(chainId);
+
+ethereum.on('chainChanged', handleChainChanged);
+
+function handleChainChanged(_chainId) {
+  // We recommend reloading the page, unless you must do otherwise
+  window.location.reload();
+}    
