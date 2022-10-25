@@ -668,7 +668,7 @@ footer {
 
 /* Roadmap */
 
-.btn {
+btn {
     font-size: 2.0rem;
     text-align: center;
     margin: 1rem;
@@ -678,12 +678,12 @@ footer {
     Color:white;
 }
 
-.btn {
+btn {
     border: 2px solid black;
     font-weight: bold;
 }
 
-.btn {
+btn {
     border: 2px solid rgb(63, 62, 62);
     background-color: rgba(255,0,0,.70);
     color: rgb(63, 62, 62);
