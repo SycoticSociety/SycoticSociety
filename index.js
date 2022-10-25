@@ -39,8 +39,10 @@ function logoOpacity() {
 setInterval(logoOpacity, 5);
 
 
-// MetaMask Event start Squence
 
+/*********************************************/
+/* Access the user's accounts (per EIP-1102) */
+/*********************************************/
 document.getElementById('connectButton', connect).addEventListener('click', event => {
   let account;
   
@@ -58,3 +60,27 @@ function connect() {
       }
     });
 }
+
+/*****************************************/
+/* Detect the MetaMask Ethereum provider */
+/*****************************************/
+
+import detectEthereumProvider from '@metamask/detect-provider';
+
+// this returns the provider, or null if it wasn't detected
+const provider = await detectEthereumProvider();
+
+if (provider) {
+  startApp(provider); // Initialize your app
+} else {
+  console.log('Please install MetaMask!');
+}
+
+function startApp(provider) {
+  // If the provider returned by detectEthereumProvider is not the same as
+  // window.ethereum, something is overwriting it, perhaps another wallet.
+  if (provider !== window.ethereum) {
+    console.error('Do you have multiple wallets installed?');
+  }
+  // Access the decentralized web!
+}    
