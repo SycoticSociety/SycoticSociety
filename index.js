@@ -40,9 +40,8 @@ setInterval(logoOpacity, 5);
 
 
 // MetaMask Event start Squence
-function MetaSequence
-document.getElementById('connect-button').addEventListener('click', event => {
-  let account;
+
+document.getElementById('connectButton', connect);
   ethereum.request({method: 'eth_requestAccounts'}).then(accounts => {
     account = accounts[0];
     console.log(account);
