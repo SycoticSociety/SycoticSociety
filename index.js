@@ -42,10 +42,18 @@ setInterval(logoOpacity, 5);
 // MetaMask Event start Squence
 
 document.getElementById('connectButton', connect);
-  ethereum.request({method: 'eth_requestAccounts'}).then(accounts => {
-    account = accounts[0];
-    console.log(account);
-
-  });
-});
-
+  
+function connect() {
+  ethereum
+    .request({ method: 'eth_requestAccounts' })
+    .then(handleAccountsChanged)
+    .catch((err) => {
+      if (err.code === 4001) {
+        // EIP-1193 userRejectedRequest error
+        // If this happens, the user rejected the connection request.
+        console.log('Please connect to MetaMask.');
+      } else {
+        console.error(err);
+      }
+    });
+}
