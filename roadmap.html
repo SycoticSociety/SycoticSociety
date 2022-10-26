@@ -47,6 +47,25 @@
                 <h3><button onclick="connect()"><h4>**MetaMask Connect**</h4></button></h3>
         </dvi>
         
+<button type="button" id="mybutton" 
+        style="background: darkcyan;color:white;"
+        onclick="alert('Filter was clicked!');">Filter</button>
+
+<br />
+<button type="button" onclick="toggle();">Toggle style</button>
+
+<script>
+  let toggle = () => {
+    let element = document.getElementById("mybutton");
+
+    if (element.style.backgroundColor === "darkcyan") {
+       element.style.backgroundColor = "#3630a3";
+    } else {
+       element.style.backgroundColor = "darkcyan";
+    }
+  }
+</script>
+
         
         
          <div class="sycotic-tonic">
