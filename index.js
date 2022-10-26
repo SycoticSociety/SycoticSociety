@@ -42,6 +42,7 @@ setInterval(logoOpacity, 5);
 /* Access the user's accounts (per EIP-1102) */
 /*********************************************/
 
+
 document.getElementById('connectButton', connect).addEventListener('click', event => {
   let account;
 
@@ -58,4 +59,4 @@ function connect() {
         console.error(err);
       }
     });
-}
+}})
