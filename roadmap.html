@@ -40,25 +40,25 @@
          </div>
 
 
+      <ul class="navigation">
          <li><a href="https://metamask.io/download">*MetaMask Download*</a></li>
+         <li><button onclick="connect()"><h4>**MetaMask Connect**</h4></button></li>
 
-<button onclick="connect()"><h4>**MetaMask Connect**</h4></button>
+         <li><button style="background:#3630a3;color:white;"
+              onclick="alert('Save processed.')">
+              Save</button>
 
-<button style="background:#3630a3;color:white;"
-        onclick="alert('Save processed.')">
-        Save</button>
+         <li><button style="background:#3630a3;color:white;"
+              onclick="alert('Action cancelled.')">
+              Cancel</button>
 
-<button style="background:#3630a3;color:white;"
-        onclick="alert('Action cancelled.')">
-        Cancel</button>
+          <li><button type="button" id="mybutton" 
+              style="background: darkcyan;color:white;"
+              onclick="alert('Filter was clicked!');">Filter</button>
 
-        
-<button type="button" id="mybutton" 
-        style="background: darkcyan;color:white;"
-        onclick="alert('Filter was clicked!');">Filter</button>
+          <li><button type="button" onclick="toggle();">Toggle style</button>
+       </ul>
 
-<br />
-<button type="button" onclick="toggle();">Toggle style</button>
 
 <script>
   let toggle = () => {
