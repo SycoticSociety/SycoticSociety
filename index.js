@@ -42,7 +42,6 @@ setInterval(logoOpacity, 5);
 /* Access the user's accounts (per EIP-1102) */
 /*********************************************/
 
- document.querySelector('h3').addEventListener('touchstart'connect);
  document.getElementById('connectButton', connect);
 
 function connect() {
