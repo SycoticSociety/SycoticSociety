@@ -452,7 +452,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 3000px) {
+@media only screen and (max-width: 1300px) {
     .banner {
         height: 30rem;
         width: 30rem;
@@ -470,7 +470,18 @@ footer {
     .intro p{
         font-size: 1rem;
     }
+    
+    
+    .banner a {
+        display: flex;
+    }
+    
+    
 }
+
+
+
+
 @media only screen and (max-width: 1100px) {
     .banner {
         height: 25rem;
@@ -489,7 +500,15 @@ footer {
     .intro p{
         font-size: 1rem;
     }
+    
+    .banner a {
+        display: flex;
+    }
+ 
+    
 }
+  
+
 @media only screen and (max-width: 900px) {
     .sycotic {
         display: none;
