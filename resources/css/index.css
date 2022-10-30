@@ -461,9 +461,6 @@ footer {
         font-size: 2.25rem;
     }
 
-    .top-button a{
-        font-size: 1rem;
-    }
     .intro h3{
         font-size: 2rem;
     }
@@ -490,10 +487,7 @@ footer {
     .logo-name {
         font-size: 2rem;
     }
-
-    .top-button a{
-        font-size: 0.9rem;
-    }
+    
     .intro h3{
         font-size: 1.75rem;
     }
