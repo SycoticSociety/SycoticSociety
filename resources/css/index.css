@@ -308,7 +308,7 @@ footer {
     background-size: cover;
     display:flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     grid-column: 2 / 3;
 }
 
@@ -316,6 +316,7 @@ footer {
 .banner a {
     border: 1px solid gray;
     padding: 1rem;
+    margin: 35px;
     border-radius: 1rem;
     background-color: rgba(255,0,0,.40);
     cursor: pointer;
