@@ -7,7 +7,7 @@
     font-family: Arial, sans-serif;
   }
   nav {
-    background: rgb(0, 0, 0,0.4);
+    background: rgb(0, 0, 0,0.5);
     color: rgb(255, 255, 255,0.8);
     display: flex;
     align-items: center;
