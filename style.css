@@ -38,7 +38,7 @@
   nav .mainMenu .closeMenu,
   .icons i {
     font-size: 2rem;
-    display: none;
+    display: flex;
     cursor: pointer;
   }
   .fa-facebook:hover {
@@ -69,7 +69,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background: rgb(0, 0, 0);
+      background: rgb(0, 0, 0,0.5);
       transition: top 1s ease 0s;
       display: none;
     }
