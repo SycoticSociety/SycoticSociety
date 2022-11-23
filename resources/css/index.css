@@ -611,8 +611,8 @@ footer {
         grid-template-columns: 1fr;
     }
     .banner {
-        height: 20rem;
-        width: 20rem;
+        height: 25rem;
+        width: 25rem;
         grid-column: 1 / 2;
     }
     .logo-name {
@@ -639,8 +639,8 @@ footer {
 @media only screen and (max-width: 500px) {
 
     .banner {
-        height: 20rem;
-        width: 20rem;
+        height: 25rem;
+        width: 25rem;
         grid-column: 1 / 2;
     }
 
