@@ -49,8 +49,8 @@ main {
 
 header {
     width: 100%;
-    border: 2px solid rgba(63, 62, 62,.5);;
-    background-color: rgba(63, 62, 62,.6);
+    border: 2px solid rgba(0, 0, 0,0.5);;
+    background-color: rgba(0, 0, 0,0.5);
     display: flex;
     position:fixed;
     z-index: 100;
