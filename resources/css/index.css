@@ -490,8 +490,8 @@ footer {
 
 @media only screen and (max-width: 2000px) {
     .banner {
-        height: 25rem;
-        width: 25rem;
+        height: 30rem;
+        width: 30rem;
     }
     .logo-name {
         font-size: 2.25rem;
@@ -517,8 +517,8 @@ footer {
 
 @media only screen and (max-width: 1700px) {
     .banner {
-        height: 25rem;
-        width: 25rem;
+        height: 30rem;
+        width: 30rem;
     }
     .logo-name {
         font-size: 2.25rem;
@@ -639,8 +639,8 @@ footer {
 @media only screen and (max-width: 500px) {
 
     .banner {
-        height: 15rem;
-        width: 15rem;
+        height: 20rem;
+        width: 20rem;
         grid-column: 1 / 2;
     }
 
