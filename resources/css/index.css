@@ -1,4 +1,4 @@
-/* Universal style */
+ ///*** Universal style ***///
 
 html {
     font-size: 20px;
@@ -45,7 +45,8 @@ main {
         top: 4rem;
     }
 }
-/* Header style */
+
+ ///*** Header style ***///
 
 header {
     width: 100%;
@@ -144,6 +145,7 @@ header {
         height: 2.25rem;
     }
 }
+
 @media only screen and (max-width: 1100px) {
     .logo-title {
         margin: 0.5rem;
@@ -231,7 +233,9 @@ header {
     }
 }
 
-/* Footer style */
+
+ ///*** Footer style ***///
+
 footer {
     width: 100%;
     border: 2px solid rgba(0, 0, 0,0.5);;
@@ -291,7 +295,10 @@ footer {
         margin: 1.25rem 0.8rem;
     }
 }
-/* Main website style */
+
+
+ ///*** Main website style ***///
+
 .home {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -301,6 +308,7 @@ footer {
     height: 45rem;
     width: 45rem;
     margin: 5rem auto;
+    border: 2px rbg (255,0,0,0.8);
     border-radius: 100%;
     background-image: url('../img/banner.png');
     background-repeat: no-repeat;
@@ -652,6 +660,7 @@ footer {
 
 
  ///**** Tokenomics ***///
+
 .token-banner {
     display: flex;
 }
@@ -839,7 +848,7 @@ btn {
     margin: 0 auto;
     overflow: hidden;
    
-///**SYCOTIC SEASONAL VIDEO**///
+ ///**SYCOTIC SEASONAL VIDEO**///
 
 @media only screen and (max-width: 500px) {
 
