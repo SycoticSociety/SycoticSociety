@@ -823,6 +823,12 @@ btn {
     margin: 0 auto;
     Position: center;
 
+.rectangle 
+             height: 50px;
+             width: 100px;
+             background-color: rgb (0,0,0);
+}            
+
 
 @media only screen and (max-width: 700px) {
 
@@ -831,25 +837,45 @@ btn {
     height: 1200;
     margin: 0 auto;
     Position: center;
+
+.rectangle {
+             height: 50px;
+             width: 100px;
+             background-color: rgb (0,0,0);
+             }
+
+
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
 
 .sycotic-halloween video 
     width: 100%;
     height: 1200;
     margin: 0 auto;
     Position: center;
+
+
+.rectangle 
+             height: 75px;
+             width: 100px;
+             background-color: rgb (0,0,0);
 }
 
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1000px) {
 
 .sycotic-halloween video 
     width: 100%;
     height: 1200;
     margin: 0 auto;
     Position: center;
+
+.rectangle 
+             height: 75px;
+             width: 100px;
+             background-color: rgb (0,0,0);
+             
 }
 
 @media only screen and (max-width: 1300px) {
@@ -859,6 +885,12 @@ btn {
     height: 1200;
     margin: 0 auto;
     Position: center;
+
+.rectangle 
+             height: 85px;
+             width: 100px;
+             background-color: rgb (0,0,0);
+             
 }
 
 @media only screen and (max-width: 1500px) {
@@ -868,6 +900,12 @@ btn {
     height: 1200;
     margin: 0 auto;
     Position: center;
+
+.rectangle 
+             height: 95px;
+             width: 100px;
+             background-color: rgb (0,0,0);
+             
 }
 
 @media only screen and (max-width: 1700px) {
@@ -877,6 +915,12 @@ btn {
     height: 1200;
     margin: 0 auto;
     Position: center;
+
+.rectangle 
+             height: 95px;
+             width: 100px;
+             background-color: rgb (0,0,0);
+             
 }
 
 @media only screen and (max-width: 1920px) {
@@ -886,6 +930,12 @@ btn {
     height: 1200;
     margin: 0 auto;
     Position: center;
+
+.rectangle 
+             height: 105px;
+             width: 100px;
+             background-color: rgb (0,0,0);
+             
 }
 
 
