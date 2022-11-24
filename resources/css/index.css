@@ -651,13 +651,13 @@ footer {
 }
 
 
-/* Tokenomics */
+ ///**** Tokenomics ***///
 .token-banner {
     display: flex;
 }
 .token-banner img {
     width: 60rem;
-    height: 15rem;
+    height: 10rem;
     border-radius: 2rem;
     border: 1px solid rgba(0, 0, 0,.60);
     margin: 0 auto;
@@ -770,7 +770,7 @@ footer {
     }
 }
 
-/* Roadmap */
+ ////*** Roadmap ***///
 
 btn {
     font-size: 2.0rem;
