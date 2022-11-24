@@ -10,7 +10,7 @@
     z-index: 100;
   }
   nav {
-    background: rgb(0, 0, 0,);
+    background: black;
     color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
