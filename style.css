@@ -9,7 +9,7 @@
         z-index: 100;
   }
   nav {
-    background: ;
+    background: rgb(128,128,128,.7);
     color: rgb(0, 0, 0);
     width: 100%;
     display: flex;
