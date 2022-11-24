@@ -44,8 +44,8 @@ main {
 /* Header style */
 header {
     width: 100%;
-    border: 2px solid rgba(0, 0, 0,0.5);;
-    background-color: rgba(0, 0, 0,0.5);
+    border: 2px solid rgba(0, 0, 0,.5);;
+    background-color: rgba(0, 0, 0,.5);
     display: flex;
     position:fixed;
     z-index: 100;
@@ -79,7 +79,7 @@ header {
     font-size: 1.25rem;
     color: white;
     border: 1px solid gray;
-    background-color: rgba(255,0,0,0.50);
+    background-color: rgba(255,0,0,.5);
     padding: 0.5rem 1rem;
     border-radius: 2rem;
 }
@@ -89,7 +89,7 @@ header {
 }
 .navigation li a:active {
     border: 2px solid rgb(63, 62, 62);
-    background-color: rgba(255,0,0,.80);
+    background-color: rgba(255,0,0,.8);
     color: rgb(63, 62, 62);
 }
 .social-media {
@@ -218,8 +218,8 @@ header {
 /* Footer style */
 footer {
     width: 100%;
-    border: 2px solid rgba(0, 0, 0,0.5);;
-    background-color: rgba(0, 0, 0,0.5);
+    border: 2px solid rgba(0, 0, 0,.5);;
+    background-color: rgba(0, 0, 0,.5);
     position: fixed;
     left: 0;
     bottom: 0;
