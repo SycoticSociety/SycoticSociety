@@ -109,22 +109,22 @@ header {
     border-radius: 0.5rem;
 }
 @media only screen and (max-width: 1300px) {
-    .logo-title {
-        margin: 0.75rem;
+      .logo-title {
+        margin: 0.5rem;
     }
     .logo-title img {
-        width: 4rem;
-        height: 4rem;
+        width: 3rem;
+        height: 3rem;
     }
     .logo-title h1 {
-        font-size: 1.25rem;
-    }
-    .navigation li a {
         font-size: 1rem;
     }
+    .navigation li a {
+        font-size: 0.9rem;
+    }
     .social-media a img {
-        width: 2.25rem;
-        height: 2.25rem;
+        width: 2rem;
+        height: 2rem;
     }
 }
 @media only screen and (max-width: 1100px) {
