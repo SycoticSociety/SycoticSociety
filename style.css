@@ -10,7 +10,7 @@
   }
   nav {
     background: ;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     width: 100%;
     display: flex;
     align-items: center;
@@ -24,7 +24,7 @@
   }
   nav .mainMenu li a {
     display: inline-block;
-    padding: 15px;
+    padding: 20px;
     text-decoration: none;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
