@@ -2,7 +2,7 @@
 * {
     box-sizing: border-box;
     margin: 0px;
-    padding: 30px 0px 0px 0; 
+    padding: 0px; 
     z-index: 100;
   }
   body {
@@ -24,7 +24,7 @@
   }
   nav .mainMenu li a {
     display: inline-block;
-    padding: 30px 0px 0px 0; 
+    padding: 1em; 
     text-decoration: none;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
