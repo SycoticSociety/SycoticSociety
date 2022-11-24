@@ -9,8 +9,9 @@
         z-index: 100;
   }
   nav {
-    background: rgb(0, 0, 0);
+    background: ;
     color: rgb(255, 255, 255);
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -72,7 +73,7 @@
     text-transform: uppercase;
         z-index: 100;
   }
-  @media (max-width: 800px) {
+  @media (max-width: 700px) {
     nav .mainMenu {
       height: 100vh;
       position: fixed;
