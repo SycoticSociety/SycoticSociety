@@ -299,6 +299,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     grid-column: 2 / 3;
+     z-index: 98;
 }
 .banner a {
     border: 1px solid gray;
@@ -310,6 +311,7 @@ footer {
     display: none;
     text-decoration: none;
     color: white;
+     z-index: 98;
 }
 .banner a:hover {
     border: 3px solid black;
@@ -350,6 +352,7 @@ footer {
     text-decoration: none;
     color:white;
     font-size: 1.9rem;
+     z-index: 98;
 }
 
 .top-button a:hover {
@@ -369,6 +372,7 @@ footer {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+     z-index: 98;
 }
 
 .intro h3{
@@ -381,6 +385,7 @@ footer {
     border-radius: 1rem;
     Color: rgb(192,192,192);
     overflow: auto;
+     z-index: 98;
 }
 
 .intro h3:hover {
