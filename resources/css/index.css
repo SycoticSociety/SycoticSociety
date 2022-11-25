@@ -81,7 +81,7 @@ header {
     border: 1px solid gray;
     background-color: rgba(255,0,0,.6);
     padding: 0.5rem 1rem;
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 .navigation li a:hover {
     border: 2px solid black;
