@@ -373,13 +373,13 @@ footer {
 
 .intro h3{
     border: 1px solid gray;
-    font-size: 2.0rem;
+    font-size: 1.5rem;
     text-align: center;
     margin: 1rem;
     background-color: rgba(255,0,0,.4);
     padding: 1rem;
     border-radius: 1rem;
-    Color: 	rgb(192,192,192);
+    Color: rgb(192,192,192);
     overflow: auto;
 }
 
