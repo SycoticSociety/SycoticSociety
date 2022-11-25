@@ -637,9 +637,9 @@ footer {
     display: flex;
 }
 .token-banner img {
-    width: 60rem;
-    height: 7rem;
-    border-radius: 2rem;
+    width: 50rem;
+    height: 4rem;
+    border-radius: 1rem;
     border: 1px solid rgba(0, 0, 0,.60);
     margin: 0 auto;
 }
