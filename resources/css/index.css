@@ -507,8 +507,29 @@ footer {
     color: rgb(63, 62, 62);
 }
 
+@media only screen and (max-width: 2600px) {
+    .banner {
+        height: 30rem;
+        width: 30rem;
+    }
+    .logo-name {
+        font-size: 2.25rem;
+    }
 
-
+    .intro h3{
+        font-size: 2rem;
+    }
+    .intro p{
+        font-size: 1rem;
+    }
+    
+    
+    .banner a {
+        display: flex;
+    }
+    
+    
+}
 
 @media only screen and (max-width: 2000px) {
     .banner {
