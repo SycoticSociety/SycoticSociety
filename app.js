@@ -3,11 +3,14 @@ const closeMenu = document.querySelector('.closeMenu');
 const openMenu = document.querySelector('.openMenu');
 const menu_items = document.querySelectorAll('nav .mainMenu li a');
 
-document.querySelector ('.openMenu').addEventListener('touchstart',show);
+const openMenu = document.querySelector('.openMenu').addEventListener('touchstart',show);
+document.querySelector('.openMenu').addEventListener('touchstart',show);
+
 
 
 openMenu.addEventListener('click',show);
 closeMenu.addEventListener('click',close);
+openMenu.addEventListener('touchstart',show);
 
 // close menu when you click on a menu item 
 menu_items.forEach(item => {
