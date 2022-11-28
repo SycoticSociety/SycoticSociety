@@ -91,14 +91,13 @@
       top: 0px;
       right: 0px;
       left: 0px;
-      z-index: 10;
+      z-index: 99;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       background: rgb(0, 0, 0);
       transition: top 1s ease 0s;
       display: none;
-          z-index: 99;
     }
 
     nav .mainMenu .closeMenu {
