@@ -94,6 +94,15 @@
         <script>
                  document.querySelector('.openMenu');
                  openMenu.addEventListener('touchstart',show);
+                 document.addEventListener('touchstart', (event) => {});
+
+                          ontouchstart = (event) => { 
+                                function show() {
+                                alert("Hello World!");
+                                }
+          
+                              };
+
 
                  function show() {
                  alert("Hello World!");
