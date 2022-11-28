@@ -3,7 +3,7 @@ const closeMenu = document.querySelector('.closeMenu');
 const openMenu = document.querySelector('.openMenu');
 const menu_items = document.querySelectorAll('nav .mainMenu li a');
 
-
+document.querySelector ('.openMenu').addEventListener('touchstart',show);
 
 
 openMenu.addEventListener('click',show);
@@ -23,3 +23,6 @@ function show(){
 function close(){
     mainMenu.style.top = '-100%';
 }
+
+
+
