@@ -700,8 +700,8 @@ footer {
     display: flex;
 }
 .token-banner img {
-    width: 50rem;
-    height: 4rem;
+    width: 40rem;
+    height: 20rem;
     border-radius: 1rem;
     border: 1px solid rgba(0, 0, 0,.60);
     margin: 0 auto;
@@ -748,7 +748,7 @@ footer {
 
 @media only screen and (max-width: 2600px){
     .token-banner img {
-        width:35rem;
+        width:40rem;
         height: 20rem;
     }
     .token1 img {
