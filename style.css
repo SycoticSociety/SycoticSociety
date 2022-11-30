@@ -39,7 +39,7 @@
   }
 
   nav .mainMenu li a:hover {
-    background: rgba(225, 0, 0,.6);
+    background: rgba(225, 0, 0,.8);
     border-radius: 50px;
       
   }
