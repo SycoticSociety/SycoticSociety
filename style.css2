@@ -33,7 +33,7 @@
   }
   nav .mainMenu li a:hover {
     background: rgba(255, 0, 0,.8);
-    border-radius: 30px;
+    border-radius: 50px;
     z-index: 110;
   }
   nav .openMenu {
