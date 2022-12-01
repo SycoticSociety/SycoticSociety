@@ -413,7 +413,7 @@ footer {
 }
 
 .intro h3{
-    border: 15px solid black;
+    border: 10px solid black;
     font-size: 1.75rem;
     text-align: center;
     margin: 1rem;
@@ -426,7 +426,7 @@ footer {
 }
 
 .intro h3:hover {
-    border: 15px solid black;
+    border: 10px solid black;
     font-weight: bold;
 }
 
