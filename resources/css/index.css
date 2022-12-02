@@ -1,4 +1,4 @@
-                                                       /* Universal style */
+                            /* Universal style */
 
 html {
     font-size: 20px;
@@ -249,7 +249,7 @@ header {
 }
 
 
-                                                /**** Footer style bottom links ****/
+             /**** Footer style bottom links ****/
 
 
 footer {
@@ -320,7 +320,7 @@ footer {
     }
 }
 
-                                                       /* Main website style */
+                         /* Main website style */
 
 .home {
     display: grid;
@@ -679,7 +679,7 @@ footer {
 }
 
 
-                                                           /* Tokenomics */
+                                 /* Tokenomics */
 
 .token-banner {
     display: flex;
@@ -827,7 +827,20 @@ footer {
     }
 }
 
-                                                          /*** Roadmap ***/
+ 
+
+
+
+
+
+                               /*** Roadmap ***/
+
+
+@media screen and (max-width: 1500px) {
+  div.example {
+    display: none;
+  }
+}
 
 btn {
     font-size: 2.0rem;
@@ -887,8 +900,7 @@ btn {
     margin: 0 auto;
     overflow: hidden;
   
-                                                      /**SYCOTIC SEASONAL VIDEO**/
-
+                     /**SYCOTIC SEASONAL VIDEO**/
 @media only screen and (max-width: 500px) {
 
 .sycotic-halloween video 
