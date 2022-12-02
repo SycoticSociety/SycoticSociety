@@ -860,8 +860,9 @@ footer {
 
 .vertical-menu a.active {
   background-color:  rgba(255,0,0,0.60);
-  color: rgb(105,105,105,);
+  color: black;
  }
+
 
 
 
