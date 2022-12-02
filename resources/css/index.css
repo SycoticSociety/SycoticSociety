@@ -908,6 +908,7 @@ footer {
 
 .vertical-menu {
   width: 185px;
+  border-radius: 5px;
  }
 
 .vertical-menu a {
