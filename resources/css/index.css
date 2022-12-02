@@ -835,10 +835,12 @@ footer {
 
                                /*** Roadmap ***/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
 .vertical-menu {
     display: none;
   }
+
+}
 
 .vertical-menu {
   width: 100px;
@@ -861,7 +863,9 @@ footer {
   color: rgb(105,105,105,);
  }
 
-}
+
+
+
 
 btn {
     font-size: 2.0rem;
