@@ -835,7 +835,7 @@ footer {
 
                                /*** Roadmap ***/
 
-media screen and (max-width: 1500px) {
+@media screen and (max-width: 1500px) {
 .vertical-menu {
     display: none;
   }
