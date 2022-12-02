@@ -835,11 +835,32 @@ footer {
 
                                /*** Roadmap ***/
 
-
-@media screen and (max-width: 1500px) {
-  div.example {
+media screen and (max-width: 1500px) {
+.vertical-menu {
     display: none;
   }
+
+.vertical-menu {
+  width: 100px;
+ }
+
+.vertical-menu a {
+  background-color: black;
+  color: rgb(105,105,105);
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+ }
+
+.vertical-menu a:hover {
+  background-color:  rgba(255,0,0,0.60);
+ }
+
+.vertical-menu a.active {
+  background-color:  rgba(255,0,0,0.60);
+  color: rgb(105,105,105,);
+ }
+
 }
 
 btn {
@@ -901,6 +922,7 @@ btn {
     overflow: hidden;
   
                      /**SYCOTIC SEASONAL VIDEO**/
+
 @media only screen and (max-width: 500px) {
 
 .sycotic-halloween video 
