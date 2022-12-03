@@ -23,3 +23,7 @@ function show(){
 function close(){
     mainMenu.style.top = '-100%';
 }
+
+function show() {
+         alert("Hello World!");
+}
