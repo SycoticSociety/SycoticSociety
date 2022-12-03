@@ -917,6 +917,7 @@ footer {
   display: block;
   padding: 20px;
   text-decoration: none;
+   z-index: 50;
  }
 
 .vertical-menu a:hover {
