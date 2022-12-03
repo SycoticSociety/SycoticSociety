@@ -40,6 +40,7 @@
 
   nav .mainMenu li a:hover {
     background: rgba(225, 0, 0,.8);
+    border-radius: 5px;
    
   }
 
