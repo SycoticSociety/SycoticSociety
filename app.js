@@ -2,8 +2,10 @@ const mainMenu = document.querySelector('.mainMenu');
 const closeMenu = document.querySelector('.closeMenu');
 const openMenu = document.querySelector('.openMenu');
 const menu_items = document.querySelectorAll('nav .mainMenu li a');
+const fafabars = document.querySelector('fa fa-bars');
 
 
+fa fa-bars.addEventListener('click',show);
 openMenu.addEventListener('click',show);
 closeMenu.addEventListener('click',close);
 
