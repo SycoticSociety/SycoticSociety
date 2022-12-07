@@ -2,117 +2,100 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
+body {background: rgb(225,0,0,.35);margin:0;height:2000px;}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
-* {
-  box-sizing: border-box;
-}
-
-/* Create a column layout with Flexbox */
-.row {
-  display: flex;
-}
-
-/* Left column (menu) */
-.left {
-  flex: 25%;
-  padding: 15px 0;
-  color: rgb(220,220,220);
-}
-
-.left h2 {
-  padding-left: 8px;
-}
-
-/* Right column (page content) */
-.right {
-  flex: 50%;
-  padding: 15px;
-}
-
-/* Style the search box */
-#mySearch {
-  width: 100%;
-  font-size: 18px;
-  padding: 11px;
-  border: 1px solid black;
-  background-color: white;
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
   color: black;
+  font-size: 30px;
 }
 
-/* Style the navigation menu inside the left column */
-#myMenu {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  background-color: black
-  ;
-  
+.icon-bar a:hover {
+  background-color: #000;
 }
 
-#myMenu li a {
-  padding: 12px;
-  text-decoration: none;
-  color: rgb(220,220,220);
-  display: block
+
+.facebook {
+  background: #3B5198;
+  color: white;
 }
 
-#myMenu li a:hover {
-  background-color: red;
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: rgb(225,0,0,.8);
+  color: white;
+}
+
+.telegram {
+  background: 	rgb(46,139,87,.8);
+  color: white;
+}
+
+.discord {
+  background: rgb(153,50,204,.8);
+  color: white;
+}
+
+
+.content {
+  margin-left: 125px;
+  font-size: 30px;
+  color:black;
 }
 </style>
-</head>
 <body>
 
-<h2>Search Menu</h2>
-<p>Start to type for a specific category inside the search bar to "filter" the search options.</p>
-
-<div class="row">
-  <div class="left" style="background-color: black;">
-    <h2>Menu</h2>
-    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
-    <ul id="myMenu">
-      <li><a href="#">HTML</a></li>
-      <li><a href="#">CSS</a></li>
-      <li><a href="#">JavaScript</a></li>
-      <li><a href="#">PHP</a></li>
-      <li><a href="#">Python</a></li>
-      <li><a href="#">jQuery</a></li>
-      <li><a href="#">SQL</a></li>
-      <li><a href="#">Bootstrap</a></li>
-      <li><a href="#">Node.js</a></li>
-    </ul>
-  </div>
+<div class="icon-bar"> 
+  <a href="https://twitter.com/SycoticSociety?t=ydUWe6N78K2Bu4eNJHhLbA&s=09" class="twitter"><i class="fa fa-twitter"></i></a> 
   
-  <div class="right" style="background-color: gray;">
-    <h2>Page Content</h2>
-    <p>Start to type for a specific category inside the search bar to "filter" the search options.</p>
-    <p>Some text..Some text..Some text..Some text..Some text..Some text..Some text..Some text..</p>
-    <p>Some other text..Some text..Some text..Some text..Some text..Some text..Some text..Some text..</p>
-    <p>Some text..</p>
-  </div>
+ <a href="#" class="telegram"><i class="fa fa-telegram"></i></a>
+  
+   <a href="https://www.linkedin.com/in/sycoticsociety?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B9os7M9WyQByFZUYB39sQ3Q%3D%3D" class="linkedin"><i class="fa fa-linkedin"></i></a>
+   
+   <a href="https://discord.com/invite/dBxMexChvQ" class="discord"><i class="fa fa-globe"></i></a> 
+   
+    <a href="chrome://newtab/" class="google"><i class="fa fa-google"></i></a> 
+  
+  
+  <a href="https://www.facebook.com/groups/1110963276028597" class="facebook"><i class="fa fa-facebook"></i></a> 
+  
+   
+  <a href="https://www.youtube.com/c/SycoticSociety" class="youtube"><i class="fa fa-youtube"></i></a> 
+  
 </div>
 
-<script>
-function myFunction() {
-  var input, filter, ul, li, a, i;
-  input = document.getElementById("mySearch");
-  filter = input.value.toUpperCase();
-  ul = document.getElementById("myMenu");
-  li = ul.getElementsByTagName("li");
-  for (i = 0; i < li.length; i++) {
-    a = li[i].getElementsByTagName("a")[0];
-    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
-    } else {
-      li[i].style.display = "none";
-    }
-  }
-}
-</script>
+<div class="content">
+   <h3>Sycotic Society Official Links! </h3>
+  <p>Sticky social bar will stick to the screen when you scroll.</p>
+ </div>
+ 
 
 </body>
 </html>
