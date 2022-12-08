@@ -1,1 +1,1356 @@
+                            /* Universal style */
+
+html {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    height: 100%;
+    width: 100%;
+}
+body {
+    width:100%;
+    height:800px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: relative;
+    background-size: cover;
+}
+main {
+    width:100%;
+    height: 100%;
+    position: relative;
+    top: 8rem;
+}
+@media only screen and (max-width: 1300px) {
+    main {
+        top: 7rem;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    main {
+        top: 6rem;
+    }
+}
+@media only screen and (max-width: 900px) {
+    main {
+        top: 5rem;
+    }
+}
+@media only screen and (max-width: 700px) {
+    main {
+        top: 4rem;
+    }
+}
+
+                                                          /* Header style*/
+
+header {
+    width: 100%;
+    border: 2px solid: black;
+    background-color: black;
+    display: flex;
+    position:fixed;
+    z-index: 100;
+}
+.logo-title {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+
+}
+.logo-title img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    margin-right: 1rem;
+}
+.logo-title h1 {
+    font-size: 1.5rem;
+}
+.navigation {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+.navigation li {
+    display: flex;
+    margin: 1rem;
+}
+.navigation li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: 	rgb(220,220,220);
+    border: 1px solid gray;
+    background-color: rgba(255,0,0,.6);
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+}
+.navigation li a:hover {
+    border: 2px solid black;
+    font-weight: bold;
+}
+.navigation li a:active {
+    border: 2px solid rgb(63, 62, 62);
+    background-color: rgba(255,0,0,.8);
+    color: rgb(63, 62, 62);
+}
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+.social-media a {
+    display: flex;
+    margin: 0.25rem;
+    
+}
+.social-media a img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+}
+
+@media only screen and (max-width: 2600px) {
+      .logo-title {
+        margin: 0.4rem;
+    }
+    .logo-title img {
+        width: 2.75rem;
+        height: 2.75rem;
+    }
+    .logo-title h1 {
+        font-size: 0.9rem;
+    }
+    .navigation li {
+        margin: 0.75rem;
+    }
+    .navigation li a {
+        font-size: 0.75rem;
+    }
+    .social-media a img {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+
+}
+
+@media only screen and (max-width: 1300px) {
+      .logo-title {
+        margin: 0.4rem;
+    }
+    .logo-title img {
+        width: 2.75rem;
+        height: 2.75rem;
+    }
+    .logo-title h1 {
+        font-size: 0.9rem;
+    }
+    .navigation li {
+        margin: 0.75rem;
+    }
+    .navigation li a {
+        font-size: 0.75rem;
+    }
+    .social-media a img {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .logo-title {
+        margin: 0.4rem;
+    }
+    .logo-title img {
+        width: 2.75rem;
+        height: 2.75rem;
+    }
+    .logo-title h1 {
+        font-size: 0.9rem;
+    }
+    .navigation li {
+        margin: 0.75rem;
+    }
+    .navigation li a {
+        font-size: 0.75rem;
+    }
+    .social-media a img {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .logo-title {
+        margin: 0.4rem;
+    }
+    .logo-title img {
+        width: 2.75rem;
+        height: 2.75rem;
+    }
+    .logo-title h1 {
+        font-size: 0.9rem;
+    }
+    .navigation li {
+        margin: 0.75rem;
+    }
+    .navigation li a {
+        font-size: 0.75rem;
+    }
+    .social-media a img {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .logo-title {
+        margin: 0.3rem;
+    }
+    .logo-title img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .logo-title h1 {
+        font-size: 0.75rem;
+    }
+    .navigation li {
+        margin: 0.25rem;
+    }
+    .navigation li a {
+        font-size: 0.5rem;
+    }
+    .social-media a img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .logo-title {
+        margin: 0.2rem;
+    }
+    .logo-title img {
+        width: 2.25rem;
+        height: 2.25rem;
+    }
+    .logo-title h1 {
+        display: none;
+    }
+    .navigation li {
+        margin: 0.1rem;
+    }
+    .navigation li a {
+        font-size: 0.6rem;
+        padding: 0.25rem 0.5rem;
+    }
+    .social-media a img {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+}
+
+
+             /**** Footer style bottom links ****/
+
+
+footer {
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0,.9);;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-top: auto;
+    color: 	rgb(220,220,220);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+.copyright {
+    margin: 2.5rem 2rem;
+}
+
+@media only screen and (max-width: 1300px) {
+    footer {
+        font-size: 1.25rem;
+    }
+    .copyright {
+        margin: 2rem 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    footer {
+        font-size: 1.25rem;
+    }
+    .copyright {
+        margin: 2rem 1.5rem;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    footer {
+        font-size: 1rem;
+    }
+    .copyright {
+        margin: 1.75rem 1.25rem;
+    }
+}
+@media only screen and (max-width: 900px) {
+    footer {
+        font-size: 0.9rem;
+    }
+    .copyright {
+        margin: 1.5rem 1rem;
+    }
+}
+@media only screen and (max-width: 700px) {
+    footer {
+        font-size: 0.75rem;
+    }
+    .copyright {
+        margin: 1.25rem 0.8rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+    footer {
+        font-size: 0.5rem;
+    }
+    .copyright {
+        margin: 1.25rem 0.8rem;
+    }
+}
+
+                         /* Main website style */
+
+@media screen and (max-width: 1300px) {
+.gallery-container {
+    display: none;
+  }
+}
+
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+}
+
+.thumbnails {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.thumbnails img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.scrollbar {
+  width: 1px;
+  height: 720px;
+  background: #ccc;
+  display: block;
+  margin: 0 0 0 8px;
+}
+
+.thumb {
+  width: 1px;
+  position: absolute;
+  height: 0;
+  background: #000;
+}
+
+.slides {
+  margin: 0 16px;
+  display: grid;
+  grid-auto-flow: row;
+  gap: 1rem;
+  width: calc(540px + 1rem);
+  padding: 0 0.25rem;
+  height: 720px;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+}
+
+.slides > div {
+  scroll-snap-align: start;
+}
+
+.slides img {
+  width: 540px;
+  object-fit: contain;
+}
+
+.slides::-webkit-scrollbar {
+  display: none;
+}
+
+
+.home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.banner {
+    height: 45rem;
+    width: 45rem;
+    margin: 2rem auto;
+    border-radius: 100%;
+    background-image: url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-column: 2 / 3;
+     z-index: 98;
+}
+.banner a {
+    border: 1px solid gray;
+    padding: 1rem;
+    margin: 35px;
+    border-radius: 1rem;
+    background-color: rgba(255,0,0,0.5);
+    cursor: pointer;
+    display: none;
+    text-decoration: none;
+    color: white;
+     z-index: 98;
+}
+.banner a:hover {
+    border: 3px solid black;
+    font-weight: bold;
+ }
+.banner a:active {
+    border: 2px solid rgb(63, 62, 62);
+    background-color: rgba(255,0,0,.70);
+    color: rgb(63, 62, 62);
+}
+.sycotic {
+    grid-column: 1 / 2;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.logo-name {
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    text-align: center;
+}
+.top-button {
+    display: flex;
+    padding: 2rem;
+}
+
+.top-button a {
+    border: 1px solid gray;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    background-color: rgba(255,0,0,0.50);
+    cursor: pointer;
+    text-decoration: none;
+    color:white;
+    font-size: 1.9rem;
+     z-index: 98;
+}
+
+.top-button a:hover {
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+.top-button a:active {
+    border: 2px solid rgb(63, 62, 62);
+    background-color: rgba(255,0,0,0.70);
+    color: rgb(63, 62, 62);
+}
+
+.intro {
+    grid-column: 3 / 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+     z-index: 98;
+}
+
+.intro h3{
+    border: 10px solid black;
+    font-size: 1.75rem;
+    text-align: center;
+    margin: 1rem;
+    background-color: rgba(255,0,0,.5);
+    padding: 1rem;
+    border-radius: 1rem;
+    Color: rgb(192,192,192);
+    overflow: auto;
+     z-index: 98;
+}
+
+.intro h3:hover {
+    border: 10px solid black;
+    font-weight: bold;
+}
+
+.intro h3:active {
+    border: 5px solid rgb(255, 0, 0);
+    background-color: rgba(255,0,0,0.70);
+    color: rgb(63, 62, 62);
+}
+
+
+
+.intro black {
+    grid-column: 3 / 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.intro black h3 {
+    border: 1px solid gray;
+    font-size: 2.0rem;
+    text-align: center;
+    margin: 1rem;
+    background-color: rgba(0, 0, 0,.6);
+    padding: 1rem;
+    border-radius: 2rem;
+    Color: rgb(220,220,220);
+}
+
+.intro black h3 :hover {
+    border: 2px solid red;
+    font-weight: bold;
+}
+
+.intro black h3 :active {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: black;
+    color: rgb(63, 62, 62);
+}
+
+
+
+.intro2 h3{
+    font-size: 2.0rem;
+    text-align: center;
+    margin: 1rem;
+    background-color: rgba(255,0,0,.30);
+    padding: 1rem;
+    border-radius: 2rem;
+    Color:white;
+}
+
+.intro2 h3:hover {
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+.intro2 h3:active {
+    border: 2px solid rgb(63, 62, 62);
+    background-color: rgba(255,0,0,.70);
+    color: rgb(63, 62, 62);
+}
+
+.intro p {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 1rem;
+    background-color: rgba(63, 62, 62,.50);
+    padding: 1rem;
+    border-radius: 2rem;
+    color:white;
+}
+
+.intro p:active {
+    border: 2px solid rgb(63, 62, 62);
+    background-color: rgba(255,0,0,.60);
+    color: rgb(63, 62, 62);
+}
+
+@media only screen and (max-width: 2600px) {
+    .banner {
+        height: 30rem;
+        width: 30rem;
+    }
+    .logo-name {
+        font-size: 2.25rem;
+    }
+
+    .intro h3{
+        font-size: 2rem;
+    }
+    .intro p{
+        font-size: 1rem;
+    }
+    
+    
+    .banner a {
+        display: flex;
+    }
+      
+}
+
+@media only screen and (max-width: 2000px) {
+    .banner {
+        height: 30rem;
+        width: 30rem;
+    }
+    .logo-name {
+        font-size: 2.25rem;
+    }
+
+    .intro h3{
+        font-size: 2rem;
+    }
+    .intro p{
+        font-size: 1rem;
+    }
+    
+    
+    .banner a {
+        display: flex;
+    }
+      
+}
+
+@media only screen and (max-width: 1700px) {
+    .banner {
+        height: 30rem;
+        width: 30rem;
+    }
+    .logo-name {
+        font-size: 2.25rem;
+    }
+
+    .intro h3{
+        font-size: 2rem;
+    }
+    .intro p{
+        font-size: 1rem;
+    }
+     
+    .banner a {
+        display: flex;
+    }
+        
+}
+
+@media only screen and (max-width: 1500px) {
+    .banner {
+        height: 25rem;
+        width: 25rem;
+    }
+    .logo-name {
+        font-size: 2.25rem;
+    }
+
+    .intro h3{
+        font-size: 2rem;
+    }
+    .intro p{
+        font-size: 1rem;
+    }
+    
+    .banner a {
+        display: flex;
+    }    
+}
+
+@media only screen and (max-width: 1100px) {
+    .banner {
+        height: 25rem;
+        width: 25rem;
+    }
+    .logo-name {
+        font-size: 2rem;
+    }
+    
+    .intro h3{
+        font-size: 1.75rem;
+    }
+    .intro p{
+        font-size: 1rem;
+    }
+    
+    .banner a {
+        display: flex;
+    }
+   
+}
+  
+@media only screen and (max-width: 900px) {
+    .sycotic {
+        display: none;
+    }
+    .home {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .banner a {
+        display: flex;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .home {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .banner {
+        height: 20rem;
+        width: 20rem;
+        grid-column: 1 / 2;
+    }
+    .logo-name {
+        font-size: 2rem;
+    }
+    .hidden-logo img{
+        width: 12.5rem;
+        height: 12.5rem;
+        visibility: visible;
+    }
+    .top-button a{
+        font-size: 0.75rem;
+    }
+    .intro {
+        grid-column: 1 / 2;
+    }
+    .intro h3{
+        font-size: 1.5rem;
+    }
+    .intro p{
+        font-size: 0.75rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+
+    .banner {
+        height: 18rem;
+        width: 18rem;
+        grid-column: 1 / 2;
+    }
+
+    .banner a {
+        padding: 0.75rem;
+        font-size: 0.75rem;
+    }
+}
+
+
+                                 /* Tokenomics */
+
+.token-banner {
+    display: flex;
+}
+.token-banner img {
+    width: 40rem;
+    height: 20rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(0, 0, 0,.60);
+    margin: 0 auto;
+}
+
+.token1 {
+    display: flex;
+    margin: 2rem;
+    justify-content: center;
+
+}
+
+.token1 img {
+    height: 20rem;
+    width: 20rem;
+}
+
+.token1 p {
+    font-size: 2rem;
+}
+
+
+.intro h2{
+    font-size: 2.0rem;
+    text-align: center;
+    margin: 1rem;
+    background-color: rgba(255,0,0,.30);
+    padding: 1rem;
+    border-radius: 2rem;
+    Color:white;
+}
+
+.intro h2:hover {
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+.intro h2:active {
+    border: 2px solid rgb(63, 62, 62);
+    background-color: rgba(255,0,0,.70);
+    color: rgb(63, 62, 62);
+}
+
+
+@media only screen and (max-width: 2600px){
+    .token-banner img {
+        width:40rem;
+        height: 25rem;
+    }
+    .token1 img {
+        height: 16rem;
+        width: 16rem;
+    }
+    .token1 p {
+        font-size: 1.75rem;
+    }
+}
+
+@media only screen and (max-width: 2000px){
+    .token-banner img {
+        width:40rem;
+        height: 20rem;
+    }
+    .token1 img {
+        height: 16rem;
+        width: 16rem;
+    }
+    .token1 p {
+        font-size: 1.75rem;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    .token-banner img {
+        width:35rem;
+        height: 14rem;
+    }
+    .token1 img {
+        height: 16rem;
+        width: 16rem;
+    }
+    .token1 p {
+        font-size: 1.75rem;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .token-banner img {
+        width:30rem;
+        height: 12rem;
+    }
+    .token1 img {
+        height: 13rem;
+        width: 13rem;
+    }
+    .token1 p {
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width: 900px){
+    .token-banner img {
+        width:25rem;
+        height: 10rem;
+    }
+    .token1 img {
+        height: 12rem;
+        width: 12rem;
+    }
+    .token1 p {
+        font-size: 1.25rem;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .token1 {
+        flex-wrap: wrap;
+    }
+    .token-banner img {
+        width:20rem;
+        height: 8rem;
+    }
+    .token1 img {
+        height: 10rem;
+        width: 10rem;
+        margin: 1rem;
+    }
+    .token1 p {
+        font-size: 1.0rem;
+        margin: 1rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .token-banner img {
+        width:20rem;
+        height: 8rem;
+    }
+    .token1 img {
+        height: 8rem;
+        width: 8rem;
+    }
+}
+
+ 
+
+                               /*** Roadmap ***/
+
+@media screen and (max-width: 700px) {
+.vertical-menu {
+    display: none;
+  }
+
+}
+
+.vertical-menu {
+  width: 185px;
+  border-radius: 5px;
+ }
+
+.vertical-menu a {
+  background-color: black;
+  color: rgb(105,105,105);
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+   z-index: 50;
+ }
+
+.vertical-menu a:hover {
+  background-color:  rgba(255,0,0,0.60);
+ }
+
+.vertical-menu a.active {
+  background-color:  rgba(255,0,0,0.60);
+  color: black;
+ }
+
+
+                                /* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(139,0,0);
+  font-family: Arial;
+}
+
+                             /* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(220,220,220);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+                                  /* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+                                    /* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(220,220,220);
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(139,0,0);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Mega Menu header, if needed */
+.dropdown-content .header {
+  background: rgb(139,0,0);
+  padding: 16px;
+  color: rgb(220,220,220);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  background-color: gray;
+  height: 250px;
+}
+
+/* Style links inside the columns */
+.column a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a background color on hover */
+.column a:hover {
+  background-color: #ddd;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.icon-bar {
+  width: 100%; /* Full-width */
+  background-color: #555; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+  background-color: #000; /* Add a hover color */
+}
+
+.active {
+  background-color: #04AA6D; /* Add an active/current color */
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+btn {
+    font-size: 2.0rem;
+    text-align: center;
+    margin: 1rem;
+    background-color: rgba(255,0,0,.30);
+    padding: 1rem;
+    border-radius: 2rem;
+    Color:white;
+}
+
+btn {
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+btn {
+    border: 2px solid rgb(63, 62, 62);
+    background-color: rgba(255,0,0,.70);
+    color: rgb(63, 62, 62);
+}
+
+.sycotic-tonic {
+    display: flex;
+}
+.sycotic-tonic img {
+    width: 30rem;
+    height: 35rem;
+    border-radius: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    overflow: hidden;
+    position: center;
+    
+    
+.sycotic-tonic2 {
+    display: flex;
+}
+.sycotic-tonic2 img {
+    width: 5rem;
+    height: 20rem;
+    border-radius: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    overflow: hidden;
+    Position: relative;
+    
+   
+.sycotic-rabbit {
+    display: flex;
+}
+.sycotic-rabbit img {
+    width: 15rem;
+    height: 10rem;
+    border-radius: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    overflow: hidden;
+  
+                     /**SYCOTIC SEASONAL VIDEO**/
+
+@media only screen and (max-width: 500px) {
+
+.sycotic-halloween video 
+    width: 100%;
+    height: 1200;
+    margin: 0 auto;
+    Position: center;
+
+.rectangle 
+             height: 50px;
+             width: 100px;
+             background-color: rgb (0,0,0);
+}            
+
+
+@media only screen and (max-width: 700px) {
+
+.sycotic-halloween video 
+    width: 100%;
+    height: 1200;
+    margin: 0 auto;
+    Position: center;
+
+.rectangle {
+             height: 50px;
+             width: 100px;
+             background-color: rgb (0,0,0);
+             }
+}
+
+@media only screen and (max-width: 800px) {
+
+.sycotic-halloween video 
+    width: 100%;
+    height: 1200;
+    margin: 0 auto;
+    Position: center;
+
+
+.rectangle 
+             height: 75px;
+             width: 100px;
+             background-color: rgb (0,0,0);
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+.sycotic-halloween video 
+    width: 100%;
+    height: 1200;
+    margin: 0 auto;
+    Position: center;
+
+.rectangle 
+             height: 75px;
+             width: 100px;
+             background-color: rgb (0,0,0);
+             
+}
+
+@media only screen and (max-width: 1300px) {
+
+.sycotic-halloween video 
+    width: 100%;
+    height: 1200;
+    margin: 0 auto;
+    Position: center;
+
+.rectangle 
+             height: 85px;
+             width: 100px;
+             background-color: rgb (0,0,0);
+             
+}
+
+@media only screen and (max-width: 1500px) {
+
+.sycotic-halloween video 
+    width: 100%;
+    height: 1200;
+    margin: 0 auto;
+    Position: center;
+
+.rectangle 
+             height: 95px;
+             width: 100px;
+             background-color: rgb (0,0,0);
+             
+}
+
+@media only screen and (max-width: 1700px) {
+
+.sycotic-halloween video 
+    width: 100%;
+    height: 1200;
+    margin: 0 auto;
+    Position: center;
+
+.rectangle 
+             height: 95px;
+             width: 100px;
+             background-color: rgb (0,0,0);
+             
+}
+
+@media only screen and (max-width: 1920px) {
+
+.sycotic-halloween video 
+    width: 100%;
+    height: 1200;
+    margin: 0 auto;
+    Position: center;
+
+.rectangle 
+             height: 105px;
+             width: 100px;
+             background-color: rgb (0,0,0);
+             
+}
 
