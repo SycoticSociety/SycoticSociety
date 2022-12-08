@@ -1,55 +1,52 @@
 <!DOCTYPE html>
 <html>
-<title>Sycotic Society</title>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">  
+<head>
+<meta charset="UTF-8"> 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="resources/css/reset.css" type="text/css" rel="stylesheet">
-<link href="resources/css/black.css" type="text/css" rel="stylesheet">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<script src="index.js" defer></script>
-<script src="./app.js"></script>  
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+  <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+    .w3-bar-block .w3-bar-item {padding:20px}
+  </style>
+</head>
+
 <style>
-.mySlides {display:none;}
+body {margin:0}
+
+.icon-bar {
+  width: 90px;
+  background-color: #555;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: rgb(225,0,0,.6);
+}
 </style>
 <body>
 
-<h2 class="w3-center">Manual Slideshow</h2>
-
-<div class="w3-content w3-display-container">
-  <img class="mySlides" src="img/-ky96bd.jpg" style="width:100%">
-  <img class="mySlides" src="img/20220817_073538.jpg" style="width:100%">
-  <img class="mySlides" src="img/88hyo4.jpg" style="width:100%">
-  <img class="mySlides" src="img/GridArt_20220928_084754849~2.jpg" style="width:100%">
-   <img class="mySlides" src="img/GridArt_20221002_093317726~2.png " style="width:100%">
-  <img class="mySlides" src="img/GridArt_20221004_181617137~3.png" style="width:100%">
-  <img class="mySlides" src="img/GridArt_20221014_212604269.png">
-  <img class="mySlides" src="img/GridArt_20221023_061223638~2.png" style="width:100%">
-
-
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+<div class="icon-bar">
+  <a class="active" href="#"><i class="fa fa-home"></i></a> 
+  <a href="#"><i class="fa fa-search"></i></a> 
+  <a href="#"><i class="fa fa-envelope"></i></a> 
+  <a href="#"><i class="fa fa-globe"></i></a>
+  <a href="#"><i class="fa fa-trash"></i></a> 
 </div>
-
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-</script>
-
+  
 </body>
-</html>
+</html> 
+
