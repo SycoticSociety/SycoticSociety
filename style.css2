@@ -11,6 +11,7 @@
     background: rgb(0, 0, 0);
     color: rgb(105,105,105);
     display: flex;
+    position:fixed;
     width: 100%;
     align-items: center;
     justify-content: space-between;
