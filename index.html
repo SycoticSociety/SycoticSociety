@@ -111,8 +111,7 @@ body {
             </div>
             
             <div class="intro"> 
-                <!-- Use any element to open/show the overlay navigation menu -->
-                <span style="color: rgb(105,105,105); z-index:150;" onclick="showDialog()">open</span>
+                <a href="drag.html" target="_blank"><h3>** Sycotic Society Official Links **</h3></a>
                 <a href="https://oncyber.io/spaces/m4lKOQEliC9DwmR51ROB" target="_blank"><h3>**InFared 3D Meta-Gallery. Gated!**</h3></a>
                 <a href="https://cronoscan.com" target="_blank"><h3>import Cronos Mainnet to MetaMask.</h3></a>
                 <a href="https://cronoscan.com/token/0xE7F3c7C6611357313B5C2734341fe9cBad1D9f59" target="_blank"><h3>**Sycotic Society Token Cronoscan**</h3></a>
@@ -123,130 +122,15 @@ body {
           
 <script>
 
-const mainMenu = document.querySelector('.mainMenu');
-const closeMenu = document.querySelector('.closeMenu');
-const openMenu = document.querySelector('.openMenu');
-const menu_items = document.querySelectorAll('nav .mainMenu li a');
-
-openMenu.addEventListener('click',show);
-closeMenu.addEventListener('click',close);
-
-// close menu when you click on a menu item 
-menu_items.forEach(item => {
-    item.addEventListener('click',function(){
-        close();
-    })
-})
-
-function show(){
-    mainMenu.style.display = 'flex';
-    mainMenu.style.top = '0';
-}
-
-function close(){
-    mainMenu.style.top = '-100%';
-}
-
 function show() {
          alert("Hello World!");
 }
 
-
-function myFunction(x) {
-  x.classList.toggle("change");
-}
 </script>
-
-        
-/* The Overlay (background) */
-<style>
-.overlay {
-  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
-  height: 100%;
-  width: 0;
-  position: fixed; /* Stay in place */
-  z-index: 200; /* Sit on top */
-  left: 0;
-  top: 0;
-  background-color: rgb(0,0,0); /* Black fallback color */
-  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
-}
-
-/* Position the content inside the overlay */
-.overlay-content {
-  position: relative;
-  top: 25%; /* 25% from the top */
-  width: 100%; /* 100% width */
-  text-align: center; /* Centered text/links */
-  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
-}
-
-/* The navigation links inside the overlay */
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: #818181;
-  display: block; /* Display block instead of inline */
-  transition: 0.3s; /* Transition effects on hover (color) */
-}
-
-/* When you mouse over the navigation links, change their color */
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
-}
-
-/* Position the close button (top right corner) */
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-}
-
-/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-}
-
-<!-- The overlay -->
-<div id="myNav" class="overlay">
-
-  <!-- Button to close the overlay navigation -->
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-  <!-- Overlay content -->
-  <div class="overlay-content">
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
-  </div>
 
 </div>
 
 </style>      
-
-/* Open */
-<script>
-function openNav() {
-  document.getElementById("myNav").style.height = "100%";
-}
-
-/* Close */
-function closeNav() {
-  document.getElementById("myNav").style.height = "0%";
-}
-</script>
-         
-
      </main>
     <footer>
         <h1 class="copyright">&copy; Sycotic Society.  sycoticx@sycoticsociety.com</h1>
