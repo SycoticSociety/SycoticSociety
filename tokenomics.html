@@ -1,109 +1,188 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sycotic Society</title>
-    <link href="resources/css/reset.css" type="text/css" rel="stylesheet">
-    <link href="resources/css/black.css" type="text/css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="index.js" defer></script>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
-    <script src="./app.js"></script>
+<title>Sycotic Society</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
 </head>
-<body>
-    <header>
-        <div class="logo-title">
-            <img src="./resources/img/icon.png" alt="sycotic society icon">
-            <h1 id="title">Sycotic💢Society</h1>
+<body class="w3-dark-gray">
+
+<!-- Top container -->
+<div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
+  <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</button>
+  <span class="w3-bar-item w3-right">Sycotic Society</span>
+</div>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3 w3-animate-left" style="background-color:rgb(139,0,0);z-index:3;width:250px;" id="mySidebar"><br>
+  <div class="w3-container w3-row">
+    <div class="w3-col s4">
+      <img src="/w3images/avatar2.png" class="w3-circle w3-margin-right" style="width:46px">
+    </div>
+    <div class="w3-col s8 w3-bar">
+      <span>Welcome to, <strong>Sycotic Society</strong></span><br>
+      <a href="#" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a>
+      <a href="#" class="w3-bar-item w3-button"><i class="fa fa-user"></i></a>
+    </div>
+  </div>
+  <hr>
+  <div class="w3-container">
+    <h5>Navigation Panel</h5>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa fa-users fa-fw"></i>Overview</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bell fa-fw"></i>  News</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bank fa-fw"></i>  General</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-history fa-fw"></i>  History</a><br><br>
+  </div>
+</nav>
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px;margin-top:43px;">
+
+  <!-- Header -->
+  <header class="w3-container" style="White;padding-top:22px">
+    <h5><b><i class="fa fa-dashboard"></i>  Sycotic Society Tokenomics Dashboard</b></h5>
+  </header>
+
+  <div class="w3-row-padding w3-margin-bottom">
+    <div class="w3-quarter">
+      <div class="w3-container w3-red w3-padding-16">
+        <div class="w3-left"><i class="fa fa-comment w3-xxxlarge"></i></div>
+        <div class="w3-right">
+          <h3></h3>
         </div>
-
-       <ul class="navigation">
-            <li><a href="index.html">Home</a></li>
-             <li><a href="https://swap.crodex.app/#/swap?outputCurrency=0xe7f3c7c6611357313b5c2734341fe9cbad1d9f59">Buy</a></li>
-            <li><a href="tokenomics.html">Nomics</a></li>
-            <li><a href="https://www.launchmynft.io/collections/0xEbB84Ee07DE4Ed810506f5290F5c0a43917f4Cb1/A020M2EyO94G6vToFxhS">Mint</a></li>
-            <li><a href="threestack.html">Roadmap</a></li>
-            <li><a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:4b78c3d2-b35d-38e5-8a76-673de71cf18d">Decree</a></li>
-            <li><a href="https://metamask.io/download/">MetaMask</a></li>
-        </ul>
-        
-              
-   </header>
-
-        <div class="rectangle"></div>
-
-          <style>
-             .rectangle {
-             height: 55px;
-             width: 100px;
-             background-color: rgb (0,0,0);
-             }
-         </style>
-
-<nav>
-            <div class="logo"><h2>SYCOTIC💢SOCIETY</h2></div>
-            <div class="openMenu"><i></i></div>
-            <ul class="mainMenu">
-                <li><a href="index.html">Team</a></li>
-                <li><a href="https://play.google.com/store/apps/details?id=com.sycocube.arcadegames">Games</a></li>
-                <li><a href="https://t.me/SycoticSociety">Telegram</a></li>
-                <li><a href="https://www.linkedin.com/in/sycoticsociety?">Founder</a></li>
-                <div class="closeMenu"><i class="fa fa-times"></i></div>
-                <span class="icons">
-                    <i class="fab fa-facebook"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-github"></i>
-                </span>
-            </ul>
-        </nav>  
-       
-    <main>
-         
- 
-        <div class="token-banner">
+        <div class="w3-clear"></div>
+        <h4>Messages</h4>
+      </div>
+    </div>
+    <div class="w3-quarter">
+      <div class="w3-container w3-blue w3-padding-16">
+        <div class="w3-left"><i class="fa fa-eye w3-xxxlarge"></i></div>
+        <div class="w3-right">
+          <h3></h3>
         </div>
-
-        <div class="intro black">
-             <h3>TOKENOMICS<br><br> 1 Trillion initial supply<br> Liquidity Locked 3yrs<br> 25% Reserved<br> 75% Burned!<br><br></h3>
-        </div> 
-
-        <div class="intro black">
-            <h3><br>250 Billion Locked<br>in the Asylum. <br>For future DEX listings,<br> and partnerships.</h3>
-        </div>  
-        
-        <div class="intro black">
-            <h3><br>Strategic implementaion<br>of Buy backs, and burns.</h3>
-        </div>  
-        
-        <div class="intro black">
-            <h3><br>Sycotic Society, Circulation.<br>Currently at 93,000,000!<br></h3>
-        </div>  
-            
-        <div class="intro black">   
-        <h3><br>SLIPPAGE REVIEW 7% total<br><br>  4% Liquidity<br>  1.75% Marketing<br>  .25% Charity<br>  1% Crodex<br> <br> 0% SELLING FEES!</h3>
+        <div class="w3-clear"></div>
+        <h4>Twitter</h4>
+      </div>
+    </div>
+    <div class="w3-quarter">
+      <div class="w3-container w3-teal w3-padding-16">
+        <div class="w3-left"><i class="fa fa-share-alt w3-xxxlarge"></i></div>
+        <div class="w3-right">
+          <h3></h3>
         </div>
- 
-        
- 
-        
-              
-<iframe height="100%" width="100%" id="geckoterminal-embed" title="GeckoTerminal Embed" src="https://www.geckoterminal.com/cro/pools/0x172ef983f851bcdbf2a26a14756955a9c5954b7d?embed=1&info=1&swaps=1" frameborder="0" allow="clipboard-write" allowfullscreen></iframe>
-       
- </main>
-    <footer>
-        <h1 class="copyright">&copy; Sycotic Society. All rights reserved</h1>
-        <div class="social-media">
-            <a href="https://swap.crodex.app/#/swap?outputCurrency=0xe7f3c7c6611357313b5c2734341fe9cbad1d9f59" target="_blank"><img src="./resources/img/crodex.png" alt="crodex"></a>
-            <a href="https://www.geckoterminal.com/cro/pools/0x172ef983f851bcdbf2a26a14756955a9c5954b7d?" target="_blank"><img src="./resources/img/coingecko.png" alt="coingecko"></a>
-            <a href="https://cronoscan.com/token/0xE7F3c7C6611357313B5C2734341fe9cBad1D9f59" target="_blank"><img src="./resources/img/cdc-icon.png" alt="crypto.com"></a>
-            <a href="https://twitter.com/SycoticSociety" target="_blank"><img src="./resources/img/twitter-icon.png" alt="twitter icon"></a>
-            <a href="https://discord.gg/7sQsGz3V" target="_blank"><img src="./resources/img/discord-icon.jpg" alt="discord icon"></a>
+        <div class="w3-clear"></div>
+        <h4>Linkdin</h4>
+      </div>
+    </div>
+    <div class="w3-quarter">
+      <div class="w3-container w3-purple w3-text-white w3-padding-16">
+        <div class="w3-left"><i class="fa fa-users w3-xxxlarge"></i></div>
+        <div class="w3-right">
+          <h3></h3>
         </div>
-    </footer>
+        <div class="w3-clear"></div>
+        <h4>Discord</h4>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <hr>
+  <div class="w3-container">
+    <h5>Sycotic Society Team Members</h5>
+    <div class="w3-row">
+      <div class="w3-col m2 text-center">
+        <img class="w3-circle" src="/w3images/avatar3.png" style="width:96px;height:96px">
+      </div>
+      <div class="w3-col m10 w3-container">
+        <h4>John <span class="w3-opacity w3-medium">Sep 29, 2014, 9:12 PM</span></h4>
+        <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br>
+      </div>
+    </div>
+
+    <div class="w3-row">
+      <div class="w3-col m2 text-center">
+        <img class="w3-circle" src="/w3images/avatar1.png" style="width:96px;height:96px">
+      </div>
+      <div class="w3-col m10 w3-container">
+        <h4>Bo <span class="w3-opacity w3-medium">Sep 28, 2014, 10:15 PM</span></h4>
+        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br>
+      </div>
+    </div>
+  </div>
+  <br>
+  <hr>
+  <hr>
+  <div class="w3-container">
+  
+   <p>1 Trillion initial maxx supply.  Liquidity Locked 3yrs.  25% Reserved.  75% Burned!  Only 25% remain</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-center w3-padding w3-blue" style="width:25%">25%</div>
+    </div>
+  
+    <h5>Sycotic Society Token Data</h5>
+    <p>Current circulating Supply 93,000,000.  250 Billion Locked in the Asylum. For future DEX listings, partnerships, buybacks and burns.</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-center w3-padding w3-red" style="width:0.0372%">+0.0372%</div>
+    </div>
+
+    <p>SLIPPAGE REVIEW 7% total. 4% Liquidity, 1.75% Marketing, .25% Charity,  1% Crodex, plus 0% SELLING FEES!</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-center w3-padding w3-purple" style="width:0.07%">0.07%</div>
+    </div>
+
+    <p>Currety Year to date Net Gain/Loss</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-center w3-padding w3-green" style="width:100%">2100%</div>
+    </div>
+  </div>
+  
+  
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-16 w3-dark-grey">
+    <h4></h4>
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  </footer>
+
+  <!-- End page content -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
 </body>
-
 </html>
