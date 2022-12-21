@@ -61,10 +61,25 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   </header>
  </div> 
   <body>
+    
+    
       <div class="container">
         <img src="./resources/img/icon.png" alt="Snow">
           <button class="btn">Buy</button>
-        </div>                                                   
+        </div>     
+    
+     <div class="container left">
+        <img src="./resources/img/icon.png" alt="Snow">
+          <button class="btn">Nomics</button>
+        </div>   
+    
+     <div class="container right">
+        <img src="./resources/img/icon.png" alt="Snow">
+          <button class="btn">Roadmap</button>
+        </div> 
+    
+    
+    
  <style>
 /* Container needed to position the button. Adjust the width as needed */
 .container {
@@ -95,6 +110,78 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 }
 
 .container .btn:hover {
+  background-color: black;
+}
+</style> 
+    
+    
+    
+     <style>
+/* Container needed to position the button. Adjust the width as needed */
+.container left {
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image responsive */
+.container left img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container left .btn {
+  position: absolute;
+  top: 95%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container left .btn:hover {
+  background-color: black;
+}
+</style> 
+    
+    
+    
+     <style>
+/* Container needed to position the button. Adjust the width as needed */
+.container right {
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image responsive */
+.container right img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container right .btn {
+  position: absolute;
+  top: 95%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container right .btn:hover {
   background-color: black;
 }
 </style> 
