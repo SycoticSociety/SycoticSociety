@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sycotic Society</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="resources/css/reset.css" type="text/css" rel="stylesheet">
+<link href="resources/css/black.css" type="text/css" rel="stylesheet"> 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="background-color:rgb(139,0,0);display:none;z-index:2;width:20%;min-width:200px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+  <a href="https://www.linkedin.com/in/george-keeney-26925b256" onclick="w3_close()" class="w3-bar-item w3-button">Team</a>
+  <a href="https://www.linkedin.com/in/sycoticsociety?" onclick="w3_close()" class="w3-bar-item w3-button">Founder</a>
+  <a href="https://play.google.com/store/apps/details?id=com.sycostratos.spacegames" onclick="w3_close()" class="w3-bar-item w3-button">Google play</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-black w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16"></div>
+    <div class="w3-center w3-padding-16">Sycotic Society's Enhanced Roadmap</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="background-color:rgb(225,0,0,.5);color:rgb(220,220,220);max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="./resources/img/GridArt_20221210_023839723.png" style="width:100%">
+      <h4>Our original roadmap. My how we have grown.🤩</h4>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="./resources/img/GridArt_20221210_024032828.png" style="width:100%">
+      <h4>Down goes our first Zero ever!  We are not done yet.</h4>
+      </div>
+    <div class="w3-quarter">
+      <img src="./resources/img/GridArt_20221210_024614119.png"style="width:100%">
+     <h4>Sycotic💢Society's website. Our token is a lover, and a fighter.</h4>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="./resources/img/GridArt_20221210_024814847.jpg " style="width:100%">
+      <h4>Hanging with the homies. We know how to party!</h4>
+      <p></p>
+    </div>
+
+  </div>
+    <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="./resources/img/GridArt_20221210_025027606.png "style="width:100%">
+      <h4>Our numbers do not lie. Sadly people do lie..</h4>
+          <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="./resources/img/GridArt_20221210_025251104.png"style="width:100%">
+      <h4>Extremely Liquid Token project. Awesome LP providers.</h4>
+       <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="./resources/img/GridArt_20221210_030510298.png"style="width:100%">
+      <h4>Infared is one very awesome location. PUNKZ NFT required!</h4>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="./resources/img/GridArt_20221210_030721734.png"style="width:100%">
+      <h4>Sycotic💢Society loves, and donates to St. Judes.</h4>
+      <p></p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="threestack.html " class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="threestack.html" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="roadmapPageTwo.html" class="w3-bar-item w3-button w3-hover-black">2</a>
+    
+      <a href="threestack.html" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+          </div>
+       </div>
+    </div>
+  </div>
+
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+  <style>
+* {box-sizing: border-box;}
+
+.img-comp-container {
+  position: relative;
+  height: 400px; /*should be the same height as the images*/
+  
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow:hidden;
+  margin-right: 10px 1px 1px 50px;
+}
+
+.img-comp-img img {
+  display:block;
+  vertical-align:middle;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index:9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: red; 
+  opacity: 0.8;
+  border-radius: 50%;
+}
+</style>
+<script>
+function initComparisons() {
+  var x, i;
+  /*find all elements with an "overlay" class:*/
+  x = document.getElementsByClassName("img-comp-overlay");
+  for (i = 0; i < x.length; i++) {
+    /*once for each "overlay" element:
+    pass the "overlay" element as a parameter when executing the compareImages function:*/
+    compareImages(x[i]);
+  }
+  function compareImages(img) {
+    var slider, img, clicked = 0, w, h;
+    /*get the width and height of the img element*/
+    w = img.offsetWidth;
+    h = img.offsetHeight;
+    /*set the width of the img element to 50%:*/
+    img.style.width = (w / 2) + "px";
+    /*create slider:*/
+    slider = document.createElement("DIV");
+    slider.setAttribute("class", "img-comp-slider");
+    /*insert slider*/
+    img.parentElement.insertBefore(slider, img);
+    /*position the slider in the middle:*/
+    slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
+    slider.style.left = (w / 2) - (slider.offsetWidth / 2) + "px";
+    /*execute a function when the mouse button is pressed:*/
+    slider.addEventListener("mousedown", slideReady);
+    /*and another function when the mouse button is released:*/
+    window.addEventListener("mouseup", slideFinish);
+    /*or touched (for touch screens:*/
+    slider.addEventListener("touchstart", slideReady);
+    /*and released (for touch screens:*/
+    window.addEventListener("touchend", slideFinish);
+    function slideReady(e) {
+      /*prevent any other actions that may occur when moving over the image:*/
+      e.preventDefault();
+      /*the slider is now clicked and ready to move:*/
+      clicked = 1;
+      /*execute a function when the slider is moved:*/
+      window.addEventListener("mousemove", slideMove);
+      window.addEventListener("touchmove", slideMove);
+    }
+    function slideFinish() {
+      /*the slider is no longer clicked:*/
+      clicked = 0;
+    }
+    function slideMove(e) {
+      var pos;
+      /*if the slider is no longer clicked, exit this function:*/
+      if (clicked == 0) return false;
+      /*get the cursor's x position:*/
+      pos = getCursorPos(e)
+      /*prevent the slider from being positioned outside the image:*/
+      if (pos < 0) pos = 0;
+      if (pos > w) pos = w;
+      /*execute a function that will resize the overlay image according to the cursor:*/
+      slide(pos);
+    }
+    function getCursorPos(e) {
+      var a, x = 0;
+      e = (e.changedTouches) ? e.changedTouches[0] : e;
+      /*get the x positions of the image:*/
+      a = img.getBoundingClientRect();
+      /*calculate the cursor's x coordinate, relative to the image:*/
+      x = e.pageX - a.left;
+      /*consider any page scrolling:*/
+      x = x - window.pageXOffset;
+      return x;
+    }
+    function slide(x) {
+      /*resize the image:*/
+      img.style.width = x + "px";
+      /*position the slider:*/
+      slider.style.left = img.offsetWidth - (slider.offsetWidth / 2) + "px";
+    }
+  }
+}
+</script>
+  
+<script>
+/*Execute a function that will execute an image compare function for each element with the img-comp-overlay class:*/
+initComparisons();
+</script> 
+
+</body>
+</html>
