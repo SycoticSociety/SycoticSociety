@@ -102,13 +102,25 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   color: white;
   font-size: 16px;
   padding: 8px 18px;
-  border: 2px solid black;
+  border: none;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 15px;
+  color: #fff;
+  box-shadow: 0 9px #999;
+  outline: none;
+  text-align: center;
 }
 
-.container .btn:hover {
-  background-color: black;
+.container .btn:hover {background-color: #8B0000}
+  
+.container .btn: active {
+  background-color: red;
+  box-shadow: 0 5px #696969;
+  transform: translateY(4px);
+}
+  
+  
+  
 }
    
 
