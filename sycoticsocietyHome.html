@@ -53,13 +53,6 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 </div>
 
   <body>
-  
-     <div class="container">
-        <img src="./resources/img/GridArt_20221223_011541443.jpg"> 
-           <button class="btn">Buy</button>
-          </div>
-        </div>    
-<hr>
 
      <div class="container">
         <img src="./resources/img/GridArt_20221223_015959815.jpg">
@@ -70,7 +63,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <hr>
       <div class="container">
         <img src="./resources/img/GridArt_20221223_013550235.png">
-           <button class="btn">Roadmap</button>
+           <button class="btnOrange">Roadmap</button>
           </div>
         </div>    
     
@@ -167,6 +160,34 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   
 .container .btn2:active {
   background-color: red;
+  color:black;
+  box-shadow: 0 3px #696969;
+}
+
+* Style the button and place it in the middle of the container/image */
+.container .btnOrange {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 8px 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  color: #fff;
+  box-shadow: 0 3px #999;
+  outline: none;
+  text-align: center;
+}
+
+.container .btnOrange:hover {background-color: #8B0000}
+  
+.container .btnOrange:active {
+  background-color: orange;
   color:black;
   box-shadow: 0 3px #696969;
 }
