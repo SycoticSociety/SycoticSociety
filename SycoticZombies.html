@@ -11,16 +11,11 @@
   <body>
     <div id="txStatus"></div>
     <div id="zombies"></div>
-    <button style="background-color:rgba(255,0,0,0.2);" onclick="startApp()"><h3>MetaMask Desktop</h3></button>
+    <button style="background-color:rgba(255,0,0,0.2);" onclick="startApp(start)"><h3>MetaMask Desktop</h3></button>
     
     <script>
       
-          function startApp() {
-  // The startApp function code goes here
-}
-
-      
-      document.getElementById('startApp').addEventListener('click', startApp);     
+      document.getElementById('startApp').addEventListener('click', start);     
       var cryptoZombies;
       var userAccount;
       
@@ -29,7 +24,7 @@
    
 
 
-      function startApp() {
+      function startApp(start) {
         cryptoZombiesAddress = "YOUR_CONTRACT_ADDRESS";
         cryptoZombies = new web3.eth.Contract(cryptoZombiesABI, cryptoZombiesAddress);
 
