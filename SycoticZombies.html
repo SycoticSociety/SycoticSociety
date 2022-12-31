@@ -11,7 +11,10 @@
   <body>
     <div id="txStatus"></div>
     <div id="zombies"></div>
-    <button style="background-color:rgba(255,0,0,0.2);" onclick="startApp(start)"><h3>MetaMask Desktop</h3></button>
+    
+    <div id="startApp">
+    <button style="background-color:rgba(255,0,0,0.2);" onclick="start()"><h3>MetaMask Desktop</h3></button>
+    </div>
     
     <script>
       
@@ -22,8 +25,7 @@
       const cryptoZombies = new web3.eth.Contract(cryptoZombiesABI, cryptoZombiesAddress);
    
 
-
-      function startApp(start) {
+      function start() {
         const cryptoZombiesAddress = "YOUR_CONTRACT_ADDRESS";
         cryptoZombies = new web3.eth.Contract(cryptoZombiesABI, cryptoZombiesAddress);
 
