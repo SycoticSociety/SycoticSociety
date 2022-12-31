@@ -14,18 +14,23 @@
     <button style="background-color:rgba(255,0,0,0.2);" onclick="startApp()"><h3>MetaMask Desktop</h3></button>
     
     <script>
+      
+          function startApp() {
+  // The startApp function code goes here
+}
+
+      
       document.getElementById('startApp').addEventListener('click', startApp);     
       var cryptoZombies;
       var userAccount;
       
       const web3 = new Web3(window.ethereum);
       const cryptoZombies = new web3.eth.Contract(cryptoZombiesABI, cryptoZombiesAddress);
-
-     
+   
 
 
       function startApp() {
-        var cryptoZombiesAddress = "YOUR_CONTRACT_ADDRESS";
+        cryptoZombiesAddress = "YOUR_CONTRACT_ADDRESS";
         cryptoZombies = new web3.eth.Contract(cryptoZombiesABI, cryptoZombiesAddress);
 
         var accountInterval = setInterval(function() {
@@ -133,9 +138,6 @@
           // Handle the case where the user doesn't have Metamask installed
           // Probably show them a message prompting them to install Metamask
         }
-
-        // Now you can start your app & access web3 freely:
-        startApp()
 
       })
     </script>
