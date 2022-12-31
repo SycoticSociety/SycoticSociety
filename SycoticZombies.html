@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <title>CryptoZombies front-end</title>
-    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script language="javascript" type="text/javascript" src="web3.min.js"></script>
+    <script src="https://unpkg.com/web3@1.2.7/dist/web3.min.js"></script>
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script language="javascript" type="text/javascript" src="cryptozombies_abi.js"></script>
   </head>
   <body>
@@ -16,6 +17,8 @@
       document.getElementById('startApp').addEventListener('click', startApp);     
       var cryptoZombies;
       var userAccount;
+      var web3 = new Web3();
+
 
       function startApp() {
         var cryptoZombiesAddress = "YOUR_CONTRACT_ADDRESS";
