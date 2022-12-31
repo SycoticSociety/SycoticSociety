@@ -18,11 +18,14 @@
       var cryptoZombies;
       var userAccount;
       var web3 = new Web3();
+      var cryptoZombies = new web3.eth.Contract(cryptoZombiesABI, cryptoZombiesAddress);
+
+     
 
 
       function startApp() {
         var cryptoZombiesAddress = "YOUR_CONTRACT_ADDRESS";
-        cryptoZombies = new web3js.eth.Contract(cryptoZombiesABI, cryptoZombiesAddress);
+        cryptoZombies = new web3.eth.Contract(cryptoZombiesABI, cryptoZombiesAddress);
 
         var accountInterval = setInterval(function() {
           // Check if account has changed
