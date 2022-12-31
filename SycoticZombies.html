@@ -17,8 +17,9 @@
       document.getElementById('startApp').addEventListener('click', startApp);     
       var cryptoZombies;
       var userAccount;
-      var web3 = new Web3();
-      var cryptoZombies = new web3.eth.Contract(cryptoZombiesABI, cryptoZombiesAddress);
+      
+      const web3 = new Web3(window.ethereum);
+      const cryptoZombies = new web3.eth.Contract(cryptoZombiesABI, cryptoZombiesAddress);
 
      
 
