@@ -16,7 +16,6 @@
     <script>
       
       document.getElementById('startApp').addEventListener('click', start);     
-      var cryptoZombies;
       var userAccount;
       
       const web3 = new Web3(window.ethereum);
@@ -25,7 +24,7 @@
 
 
       function startApp(start) {
-        cryptoZombiesAddress = "YOUR_CONTRACT_ADDRESS";
+        const cryptoZombiesAddress = "YOUR_CONTRACT_ADDRESS";
         cryptoZombies = new web3.eth.Contract(cryptoZombiesABI, cryptoZombiesAddress);
 
         var accountInterval = setInterval(function() {
