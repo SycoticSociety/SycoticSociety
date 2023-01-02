@@ -62,11 +62,11 @@ html, body {
 
 .band-name {
     text-align: center;
-    margin: 0;
-    font-size: 4em;
+    margin: 20;
+    font-size: 3.5em;
     font-family: "Booter - Zero Zero";
     font-weight: normal;
-    color: white;
+    color:  rgba(255, 255, 255, .7);
 }
 
 .band-name-large {
