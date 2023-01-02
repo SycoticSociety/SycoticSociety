@@ -100,7 +100,7 @@ html, body {
 }
 
 .main-footer {
-    background-color: #56CCF2;
+    background-color: rgba(139,0,0,.7);
     color: white;
     padding: .25em 0;
 }
@@ -161,7 +161,7 @@ html, body {
 
 .btn-primary {
     color: white;
-    background-color: #56CCF2;
+    background-color: rgba(139,0,0,.7);
     border: none;
     border-radius: .3em;
     font-weight: bold;
