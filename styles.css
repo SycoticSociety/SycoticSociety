@@ -57,7 +57,7 @@ html, body {
     background-image: url("./images/GridArt_20230101_040037167~2.jpg");
     background-blend-mode: multiply;
     background-size: cover;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 .band-name {
