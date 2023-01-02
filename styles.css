@@ -62,8 +62,6 @@ html, body {
 
 .band-name {
     text-align: center;
-    margin: 20px;
-    padding: 30px 0px 0px;
     font-size: 3.5em;
     font-family: "Booter - Zero Zero";
     font-weight: normal;
@@ -214,7 +212,7 @@ html, body {
     text-align: center;
     font-weight: bold;
     font-size: 1.5em;
-    color: #333;
+    color: #DCDCDC;
     margin-bottom: 15px;
 }
 
@@ -230,7 +228,7 @@ html, body {
 
 .shop-item-price {
     flex-grow: 1;
-    color: #333;
+    color: #DCDCDC;
 }
 
 .shop-items {
@@ -242,7 +240,7 @@ html, body {
 .cart-header {
     font-weight: bold;
     font-size: 1.25em;
-    color: #333;
+    color: #DCDCDC;
 }
 
 .cart-column {
@@ -265,7 +263,7 @@ html, body {
 .cart-price {
     width: 20%;
     font-size: 1.2em;
-    color: #333;
+    color: #DCDCDC;
 }
 
 .cart-quantity {
@@ -273,7 +271,7 @@ html, body {
 }
 
 .cart-item-title {
-    color: #333;
+    color: #DCDCDC;
     margin-left: .5em;
     font-size: 1.2em;
 }
@@ -302,7 +300,7 @@ html, body {
     border-radius: 5px;
     border: 1px solid #56CCF2;
     background-color: #eee;
-    color: #333;
+    color: #DCDCDC;
     padding: 0;
     text-align: center;
     font-size: 1.2em;
@@ -331,7 +329,7 @@ html, body {
 }
 
 .cart-total-price {
-    color: #333;
+    color: #DCDCDC;
     font-size: 1.1em;
 }
 
