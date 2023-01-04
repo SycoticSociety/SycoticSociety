@@ -53,7 +53,7 @@ html, body {
 }
 
 .main-header {
-    background-color: rgb(0, 0, 0,.8);
+    background-color: rgb(0, 0, 0,1.0);
     background-image: url("./images/GridArt_20220602_053014639~2.jpg ");
     background-blend-mode: multiply;
     background-size: cover;
