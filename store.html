@@ -182,7 +182,115 @@
                 <h3 class="band-name">Sycotic Society</h3>
                 <ul class="nav footer-nav">
                     <li>
-                       
+                       <button class="MuiButtonBase-root MuiIconButton-root" tabindex="0" type="button" title="Play">
+<span class="MuiIconButton-label"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge" focusable
+="false" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z">
+</path></svg></span><span class="MuiTouchRipple-root"></span></button>
+
+
+
+<style data-jss="" data-meta="MuiIconButton">
+.MuiIconButton-root {
+  flex: 0 0 auto;
+  color: #fff;
+  padding: 12px;
+  overflow: visible;
+  font-size: 1.8214285714285712rem;
+  text-align: center;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 50%;
+}
+.MuiIconButton-root:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+.MuiIconButton-root.Mui-disabled {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+}
+@media (hover: none) {
+  .MuiIconButton-root:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-edgeStart {
+  margin-left: -12px;
+}
+.MuiIconButton-sizeSmall.MuiIconButton-edgeStart {
+  margin-left: -3px;
+}
+.MuiIconButton-edgeEnd {
+  margin-right: -12px;
+}
+.MuiIconButton-sizeSmall.MuiIconButton-edgeEnd {
+  margin-right: -3px;
+}
+.MuiIconButton-colorInherit {
+  color: inherit;
+}
+.MuiIconButton-colorPrimary {
+  color: #3f51b5;
+}
+.MuiIconButton-colorPrimary:hover {
+  background-color: rgba(63, 81, 181, 0.08);
+}
+@media (hover: none) {
+  .MuiIconButton-colorPrimary:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-colorSecondary {
+  color: #f50057;
+}
+.MuiIconButton-colorSecondary:hover {
+  background-color: rgba(245, 0, 87, 0.08);
+}
+@media (hover: none) {
+  .MuiIconButton-colorSecondary:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-sizeSmall {
+  padding: 3px;
+  font-size: 1.3660714285714284rem;
+}
+.MuiIconButton-label {
+  width: 100%;
+  display: flex;
+  align-items: inherit;
+  justify-content: inherit;
+}
+</style>
+
+<script>
+{
+    "jsonrpc": "2.0",
+    "method": "wallet_addEthereumChain",
+    "params": [
+        {
+            "chainId": "0x64",
+            "chainName": "Gnosis",
+            "rpcUrls": [
+                "https://rpc.gnosischain.com"
+            ],
+            "iconUrls": [
+                "https://xdaichain.com/fake/example/url/xdai.svg",
+                "https://xdaichain.com/fake/example/url/xdai.png"
+            ],
+            "nativeCurrency": {
+                "name": "xDAI",
+                "symbol": "xDAI",
+                "decimals": 18
+            },
+            "blockExplorerUrls": [
+                "https://blockscout.com/xdai/mainnet"
+            ]
+        }
+    ],
+    "id": 0
+}
+
+</script>
                     </li>
                     <li>
                       
