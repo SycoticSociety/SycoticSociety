@@ -190,15 +190,10 @@
 <button id="connectButton" onclick="initialize()">Connect</button>
 
 
-
 <script>
-const onboardButton = document.getElementById('connectButton');
-onboardButton.addEventListener('click', initialize);
-
- // is MetaMask Installed
-
+// define the initialize function
 const initialize = () => {
-  //Basic Actions Section
+   //Basic Actions Section
   const onboardButton = document.getElementById('connectButton');
 
  // Check if MetaMask is installed
@@ -207,6 +202,7 @@ const isMetaMaskInstalled = () => {
   const { ethereum } = window;
   return Boolean(ethereum && ethereum.isMetaMask);
 };
+
 
 // Check if MetaMask is connected
 const isMetaMaskConnected = () => {
