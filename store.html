@@ -209,7 +209,8 @@ const isMetaMaskConnected = () => {
   const { ethereum } = window;
   return Boolean(ethereum && ethereum.selectedAddress);
 };
-
+}; 
+    
 // Set the button text and onclick function based on MetaMask connection status
 const setButtonText = () => {
   const onboardButton = document.getElementById('connectButton');
