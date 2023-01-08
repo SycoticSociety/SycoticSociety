@@ -183,7 +183,7 @@
                 <ul class="nav footer-nav">
                     
      <button id="connectButton" onclick="initialize()" style="background-color:#808080;
-       font-size: 16px;padding: 10px 50px; color:border-radius:5px;Black;width: 100%;">Meta Mask</button>  
+       font-size: 16px;padding: 15px 20px; color:border-radius:10px;color:Black;width: 100%;">Meta Mask</button>  
     
                     
                     <li>
@@ -230,12 +230,12 @@ const initialize = () => {
       connectButton.disabled = true;
     } else if (!isMetaMaskConnected()) {
       // If MetaMask is installed but not connected, show a message to connect
-      connectButton.innerText = 'Connect';
+      connectButton.innerText = 'Connect Now';
       connectButton.onclick = onClickConnect;
       connectButton.disabled = false;
     } else {
       // If MetaMask is connected, disable the button
-      connectButton.innerText = 'Connected';
+      connectButton.innerText = 'Active Connection';
       connectButton.onclick = null;
       connectButton.disabled = true;
     }
