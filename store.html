@@ -230,12 +230,12 @@ const initialize = () => {
       connectButton.disabled = true;
     } else if (!isMetaMaskConnected()) {
       // If MetaMask is installed but not connected, show a message to connect
-      connectButton.innerText = 'Connect Now';
+      connectButton.innerText = 'CONNECT NOW';
       connectButton.onclick = onClickConnect;
       connectButton.disabled = false;
     } else {
       // If MetaMask is connected, disable the button
-      connectButton.innerText = 'Active Connection';
+      connectButton.innerText = 'ACTIVE CONNECTION';
       connectButton.onclick = null;
       connectButton.disabled = true;
     }
