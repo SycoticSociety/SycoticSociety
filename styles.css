@@ -158,15 +158,26 @@ html, body {
 }
 
 .btn-primary {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
     color: white;
     background-color: rgba(139,0,0,.7);
-    border: none;
+    border: none ;
     border-radius: .3em;
     font-weight: bold;
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
 }
 
 .btn-primary:hover {
-    background-color: rgba(255, 255, 255, .3);
+    background-color:#808080 ;
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
 }
 
 .tour-row {
@@ -333,8 +344,4 @@ html, body {
     font-size: 1.1em;
 }
 
-.btn-purchase {
-    display: block;
-    margin: 40px auto 80px auto;
-    font-size: 1.75em;
-}
+
