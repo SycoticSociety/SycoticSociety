@@ -188,61 +188,71 @@
 <body>
 
 <button id="connectButton" onclick="initialize()">Connect</button>
-
-
+    </li>
+                  
+                    <li>
+ 
 <script>
 // define the initialize function
 const initialize = () => {
-   //Basic Actions Section
-  const onboardButton = document.getElementById('connectButton');
+  // Check if MetaMask is installed
+  const isMetaMaskInstalled = () => {
+    // Check the ethereum binding on the window object to see if it's installed
+    const { ethereum } = window;
+    return Boolean(ethereum && ethereum.isMetaMask);
+  };
 
- // Check if MetaMask is installed
-const isMetaMaskInstalled = () => {
-  // Check the ethereum binding on the window object to see if it's installed
-  const { ethereum } = window;
-  return Boolean(ethereum && ethereum.isMetaMask);
-};
+  // Check if MetaMask is connected
+  const isMetaMaskConnected = () => {
+    const { ethereum } = window;
+    return Boolean(ethereum && ethereum.selectedAddress);
+  };
 
+  // Connect to MetaMask when the button is clicked
+  const onClickConnect = async () => {
+    try {
+      // Will open the MetaMask UI
+      // You should disable the button while the request is pending!
+      await ethereum.request({ method: 'eth_requestAccounts' });
+    } catch (error) {
+      console.error(error);
+    }
+  };
 
-// Check if MetaMask is connected
-const isMetaMaskConnected = () => {
-  const { ethereum } = window;
-  return Boolean(ethereum && ethereum.selectedAddress);
-};
-}; 
-    
-// Set the button text and onclick function based on MetaMask connection status
-const setButtonText = () => {
-  const onboardButton = document.getElementById('connectButton');
+  // Set the button text and onclick function based on MetaMask connection status
+  const setButtonText = () => {
+    const connectButton = document.getElementById('connectButton');
 
-  if (!isMetaMaskInstalled()) {
-    // If MetaMask is not installed, show a message to install it
-    onboardButton.innerText = 'Click here to install MetaMask!';
-    onboardButton.onclick = null;
-    onboardButton.disabled = true;
-  } else if (!isMetaMaskConnected()) {
-    // If MetaMask is installed but not connected, show a message to connect
-    onboardButton.innerText = 'Connect';
-    onboardButton.onclick = onClickConnect;
-    onboardButton.disabled = false;
-  } else {
-    // If MetaMask is connected, disable the button
-    onboardButton.innerText = 'Connected';
-    onboardButton.onclick = null;
-    onboardButton.disabled = true;
+    if (!isMetaMaskInstalled()) {
+      // If MetaMask is not installed, show a message to install it
+      connectButton.innerText = 'Click here to install MetaMask!';
+      connectButton.onclick = null;
+      connectButton.disabled = true;
+    } else if (!isMetaMaskConnected()) {
+      // If MetaMask is installed but not connected, show a message to connect
+      connectButton.innerText = 'Connect';
+      connectButton.onclick = onClickConnect;
+      connectButton.disabled = false;
+    } else {
+      // If MetaMask is connected, disable the button
+      connectButton.innerText = 'Connected';
+      connectButton.onclick = null;
+      connectButton.disabled = true;
+    }
+  };
+
+  // Set the button text and onclick function when the page loads
+  setButtonText();
+
+  // Set the button text and onclick function when the MetaMask connection status changes
+  if (window.ethereum) {
+    window.ethereum.on('accountsChanged', setButtonText);
   }
 };
 
-// Connect to MetaMask when the button is clicked
-const onClickConnect = async () => {
-  try {
-    // Will open the MetaMask UI
-    // You should disable the button while the request is pending!
-    await ethereum.request({ method: 'eth_requestAccounts' });
-  } catch (error) {
-    console.error(error);
-  }
-};
+// add an event listener for the connect button
+const connectButton = document.getElementById('connectButton');
+connectButton.addEventListener('click', initialize);
 
 // Get the accounts from MetaMask when the button is clicked
 const getAccountsButton = document.getElementById('getAccounts');
@@ -253,18 +263,7 @@ getAccountsButton.addEventListener('click', async () => {
   // Display the first address in the array of addresses
   getAccountsResult.innerHTML = accounts[0] || 'Not able to get accounts';
 });
-
-// Set the button text and onclick function when the page loads
-setButtonText();
-
-// Set the button text and onclick function when the MetaMask connection status changes
-if (window.ethereum) {
-  window.ethereum.on('accountsChanged', setButtonText);
-}
-</script>
-                    </li>
-                    <li>
-                      
+    
                     </li>
                     <li>
                        
