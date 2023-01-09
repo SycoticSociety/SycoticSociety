@@ -295,7 +295,7 @@ html, body {
 
 .btn-danger {
     color: white;
-    background-color: #EB5757;
+    background-color: #7c0000;
     border: none;
     border-radius: .3em;
     font-weight: bold;
@@ -309,9 +309,9 @@ html, body {
     height: 34px;
     width: 50px;
     border-radius: 5px;
-    border: 1px solid #56CCF2;
+    border: 1px solid #c53e3e;
     background-color: #eee;
-    color: #DCDCDC;
+    color: #040404;
     padding: 0;
     text-align: center;
     font-size: 1.2em;
