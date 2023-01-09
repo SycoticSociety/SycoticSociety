@@ -39,8 +39,8 @@ html, body {
 
 .main-nav {
     text-align: center;
-    font-size: 1.5em;
-    font-weight: lighter;
+    font-size: 1.8em;
+    font-weight: bolder;
     border-bottom: 1px solid rgba(255, 255, 255, .5)
 }
 
@@ -53,8 +53,8 @@ html, body {
 }
 
 .main-header {
-    background-color: rgba(0, 0, 0,.6);
-    background-image: url("./images/GridArt_20220602_053014639~2.jpg ");
+    background-color: rgba(0, 0, 0,.2);
+    background-image: url("./images/GridArt_20230101_040037167~2.jpg");
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: none;
