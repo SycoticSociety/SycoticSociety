@@ -101,3 +101,70 @@ function updateCartTotal() {
     total = Math.round(total * 100) / 100
     document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total
 }
+
+
+function updateCartTotal() {
+    var cartItemContainer = document.getElementsByClassName('cart-items')[0];
+    var cartRows = cartItemContainer.getElementsByClassName('cart-row');
+    var total = 0;
+    for (var i = 0; i < cartRows.length; i++) {
+        var cartRow = cartRows[i];
+        var priceElement = cartRow.getElementsByClassName('cart-price')[0];
+        var quantityElement = cartRow.getElementsByClassName('cart-quantity-input')[0];
+        var price = parseFloat(priceElement.innerText.replace('$', ''));
+        var quantity = quantityElement.value;
+        total = total + (price * quantity);
+    }
+    total = Math.round(total * 100) / 100;
+    document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total;
+}
+
+
+document.getElementById('connectButton').addEventListener('click', ACTIVE_CONNECTION);
+
+async function ACTIVE_CONNECTION() {
+    const tx = {
+        // other transaction fields ...
+        tokenAmount: 0
+    };
+    
+    // Update the tokenAmount field with the cartTotal
+    tx.tokenAmount = total;
+  
+    // Send the transaction to the blockchain
+    try {
+        const receipt = await sendTransaction(tx);
+        console.log(`Transaction was successful with hash: ${receipt.transactionHash}`);
+    } catch (error) {
+        console.error(`Transaction failed: ${error.message}`);
+    }
+}
+
+
+
+const Web3 = require('web3');
+
+const web3 = new Web3(new Web3.providers.HttpProvider
+("https://mainnet.infura.io/481eebda546947be8ebed10afbbae5ad"));
+const TOKEN_ABI = require('./contracts/token.json');
+const sendTransaction = require('./sendTransaction');
+
+
+
+async function requestApproval() {
+  const contract = new web3.eth.Contract(TOKEN_ABI, 
+  "0xE7F3c7C6611357313B5C2734341fe9cBad1D9f59");
+
+  // Retrieve the user's address from their MetaMask wallet
+  const accounts = await web3.currentProvider.enable();
+  const userAddress = accounts[0];
+
+  const tx = await contract.methods.approve
+  ("0xE7F3c7C6611357313B5C2734341fe9cBad1D9f59", tokenAmount).send({
+  from: userAddress,
+   });
+
+  console.log(tx);
+}
+
+
