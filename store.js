@@ -27,7 +27,7 @@ function ready() {
 }
 
 function purchaseClicked() {
- 
+    alert('Purchases in Beta phase Deactivated')
     var cartItems = document.getElementsByClassName('cart-items')[0]
     while (cartItems.hasChildNodes()) {
         cartItems.removeChild(cartItems.firstChild)
