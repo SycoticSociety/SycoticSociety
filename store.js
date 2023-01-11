@@ -129,7 +129,7 @@ async function ACTIVE_CONNECTION() {
     };
     
     // Update the tokenAmount field with the cartTotal
-    tx.tokenAmount = total;
+    tx.tokenAmount = cartTotalPrice;
   
     // Send the transaction to the blockchain
     try {
