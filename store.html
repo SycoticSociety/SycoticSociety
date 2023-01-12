@@ -255,7 +255,7 @@ connectButton.addEventListener('click', initialize);
 // Get the accounts from MetaMask when the button is clicked
 const getAccountsButton = document.getElementById('getAccounts');
 const getAccountsResult = document.getElementById('getAccountsResult');
-
+getAccountsButton.addEventListener('click', async () => {
   // Use eth_accounts to get a list of addresses owned by the user
   const accounts = await ethereum.request({ method: 'eth_accounts' });
   // Display the first address in the array of addresses
