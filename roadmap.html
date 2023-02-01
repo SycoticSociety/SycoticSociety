@@ -1,152 +1,70 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sycotic Society</title>
-    <link href="resources/css/reset.css" type="text/css" rel="stylesheet">
-    <link href="resources/css/black.css" type="text/css" rel="stylesheet">
-    <script src="index.js" defer></script>
-
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
-    <script src="./app.js"></script>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
 </head>
-<body>
-    <header>    
+<body class="w3-black">
 
-        <div class="logo-title">
-            <img src="./resources/img/icon.png" alt="sycotic society icon">
-            <h1 id="title">Sycotic Society</h1>
-        </div>
-        <ul class="navigation">
-            <li><a href="index.html">Home</a></li>
-             <li><a href="https://swap.crodex.app/#/swap?outputCurrency=0xe7f3c7c6611357313b5c2734341fe9cbad1d9f59">Buy</a></li>
-            <li><a href="tokenomics.html">Nomics</a></li>
-            <li><a href="https://www.launchmynft.io/collections/0xEbB84Ee07DE4Ed810506f5290F5c0a43917f4Cb1/A020M2EyO94G6vToFxhS">Mint</a></li>
-            <li><a href="roadmap.html">Roadmap</a></li>
-            <li><a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:4b78c3d2-b35d-38e5-8a76-673de71cf18d">Decree</a></li>
-            <li><a href="https://metamask.io/download/">MetaMask</a></li>
-        </ul>
-        
-          <div class="navbar">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
-  <div class="dropdown">
-    <button class="dropbtn">Dropdown
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <div class="header">
-        <h2>Mega Menu</h2>
-      </div>
-      <div class="row">
-        <div class="column">
-          <h3>Category 1</h3>
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </div>
-        <div class="column">
-          <h3>Category 2</h3>
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </div>
-        <div class="column">
-          <h3>Category 3</h3>
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </div>
-      </div>
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="./resources/img/banner.png" style="width:100%">
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="threestack.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-photo w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="mailto:sycoticx@sycoticsociety.com" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-black w3-hover-black w3-center w3-small">
+    <a href="index.html" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="about.html" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="threestack.html" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="mailto:sycoticx@sycoticsociety.com" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small"></h1>
+    <p></p>
+    <img src="./resources/img/Screenshot_20221221-054026~3.png" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
     </div>
   </div>
 </div>
-    
-    </header>
-        <div class="rectangle"></div>
 
-          <style>
-             .rectangle {
-             height: 85px;
-             width: 100px;
-             background-color: rgb (0,0,0);
-             }
-    </style>
-    <nav>
-            <div class="logo"><h2>SYCOTIC💢SOCIETY</h2></div>
-           <ul class="mainMenu">
-                <li><a href="index.html">Team</a></li>
-                <li><a href="https://play.google.com/store/apps/details?id=com.escost.soldyyetries">Games</a></li>
-                <li><a href="https://t.me/SycoticSociety">Telegram</a></li>
-                <li><a href="https://www.linkedin.com/in/sycoticsociety?" target="_blank">Founder</a></li>
-                <div class="closeMenu"><i class="fa fa-times"></i></div>
-                <span class="icons">
-                    <i class="fab fa-facebook"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-github"></i>
-                </span>
-            </ul>
-          
-        </nav>
-    <main>   
-         
-            
-  
-
-    
-  <div class="row">
-  <div class="column">
-    <img src="./resources/img/GridArt_20221203_044803581.png">
-    <img src="./resources/img/kdlb6h.jpg">
-    <img src="./resources/img/20220312_212141.jpg">
-    <img src="./resources/img/88hyo4.jpg">
-    <img src="./resources/img/GridArt_20221024_212817175~2.jpg">
-    <img src="./resources/img/GridArt_20220928_084754849~2.jpg">
-    <img src="./resources/img/Screenshot_20220819-154013~2.png">
-  </div>
-  <div class="column">
-    <img src="./resources/img/20220817_073538.jpg">
-    <img src="./resources/img/20220416_232450.jpg">
-    <img src="./resources/img/GridArt_20221030_163420636~2.png">
-    <img src="./resources/img/GridArt_20221023_215008582.jpg">
-    <img src="./resources/img/GridArt_20221014_212604269.png">
-    <img src="./resources/img/Screenshot_20211218-021813~2.png">
-  </div>
-  <div class="column">
-    <img src="
-    <img src="./resources/img/GridArt_20221002_093317726~2.png">
-    <img src="./resources/img/GridArt_20221023_061223638~2.png">
-    <img src="./resources/img/GridArt_20220817_105117859.png">
-    <img src="./resources/img/20210620_221028.jpg">
-    <img src="./resources/img/Screenshot_20220620-142146~3.png">
-    <img src="   ">
-  </div>
-  <div class="column">
-    <img src="./resources/img/bettyArc.gif">
-    <img src="./resources/img/GridArt_20221031_005554519.png">
-    <img src="./resources/img/GridArt_20221004_181617137~3.png">
-    <img src="./resources/img/Screenshot_20220820-070347~2.png">
-    <img src="   ">
-    <img src="    ">
-  </div>
-</div>
-       
- </main>
-    <footer>
-        <h1 class="copyright">&copy; Sycotic Society. All rights reserved</h1>
-      
-        <div class="social-media">
-            <a href="https://swap.crodex.app/#/swap?outputCurrency=0xe7f3c7c6611357313b5c2734341fe9cbad1d9f59" target="_blank"><img src="./resources/img/crodex.png" alt="crodex"></a>
-            <a href="https://www.geckoterminal.com/cro/pools/0x172ef983f851bcdbf2a26a14756955a9c5954b7d?" target="_blank"><img src="./resources/img/coingecko.png" alt="coingecko"></a>
-            <a href="https://cronoscan.com/token/0xE7F3c7C6611357313B5C2734341fe9cBad1D9f59" target="_blank"><img src="./resources/img/cdc-icon.png" alt="crypto.com"></a>
-            <a href="https://twitter.com/SycoticSociety" target="_blank"><img src="./resources/img/twitter-icon.png" alt="twitter icon"></a>
-            <a href="https://discord.com/invite/dBxMexChvQ" target="_blank"><img src="./resources/img/discord-icon.jpg" alt="discord icon"></a>
-        </div>
-    </footer>
 </body>
-
 </html>
